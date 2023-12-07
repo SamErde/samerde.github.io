@@ -8,7 +8,7 @@ share-img: /assets/img/path.jpg
 tags: [PowerShell, Locksmith]
 author: Sam Erde
 gh-repo: samerde/powershell
-gh-badge: [star, fork, follow]
+gh-badge: [star, follow]
 ---
 
 One of the things that makes PowerShell so fun is the endless opportunities to learn new and better ways to do things. We all began learning it by trying out useful cmdlets and following tutorials to write basic functions. However, nothing sinks in as well as when we work on a project with specific goals that stretch our PowerShell knowledge.
