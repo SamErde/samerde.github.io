@@ -2,10 +2,12 @@
 layout: post
 title: Return Multiple Objects from a PowerShell Function
 subtitle: Hash tables are back with another slick use case!
+date:   2023-12-08 09:00:00 -0500
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [PowerShell, Locksmith]
+categories: [PowerShell]
 author: Sam Erde
 gh-repo: samerde/powershell
 gh-badge: [star, follow]

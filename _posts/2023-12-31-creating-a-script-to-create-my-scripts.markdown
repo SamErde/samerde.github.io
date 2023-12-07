@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating a Script to Create My Scripts"
-date:   2023-10-19 08:00:00 -0400
+date:   2023-12-31 08:00:00 -0400
 author: Sam Erde
 categories: powershell
 tags: powershell automation scripting
