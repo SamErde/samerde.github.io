@@ -43,10 +43,8 @@ This function doesn’t do anything other than return three arrays, but you get 
 *At this point, it’s helpful to remember that everything in PowerShell is an object. (Yes, even strings are objects!) PowerShell lets us move those objects along the pipeline, doing whatever we need to with them in the process. It’s like a powerful little shell game!* 😉
 
 …but there’s a problem! If you run this code, you’ll notice something that could be an issue: the objects are returned as what looks like an ambiguous list.
-
+>_`$Food`
 ```powershell
-> $Food
-
 Apple
 Orange
 Peach
@@ -62,7 +60,6 @@ Radish
 The array names are gone, so if you want to reference a specific “thing” from the function, you have to find a creative way to get it.
 
 We can try using imatch to find arrays that might contain words we know:
-
 ```powershell
 $TreeFruit = $Food -imatch "Apple"
 $Squash = $Food -imatch "Squash"
@@ -85,11 +82,8 @@ What if you need to enumerate the TreeFruit array, and then enumerate the RootVe
 
 After an embarrassingly long time, a light finally came on in my head. 
 
----
-
+{: .box-note}
 :bulb: *The value side of a hash table entry can be any kind of object!* :bulb:
-
----
 
 What if I put the name of the object (the array, in this case) in the key, and store the actual arrays in the value?
 
