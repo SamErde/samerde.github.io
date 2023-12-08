@@ -5,7 +5,7 @@ subtitle: Hash tables are back with another slick use case!
 date:   2023-12-08 09:00:00 -0500
 cover-img: /assets/img/banners/adrian-schwarz-XS7q-baZrmE-unsplash.jpg
 thumbnail-img: /assets/img/thumbnails/adrian-schwarz-XS7q-baZrmE-unsplash.jpg
-share-img: /assets/img/path.jpg
+share-img: /assets/img/banners/adrian-schwarz-XS7q-baZrmE-unsplash.jpg
 tags: [PowerShell, Locksmith]
 categories: [PowerShell]
 author: Sam Erde
