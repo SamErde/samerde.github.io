@@ -14,7 +14,7 @@ gh-repo: samerde/powershell
 
 One of the things that makes PowerShell so fun is the endless opportunities to learn new and better ways to do things. We all began learning it by trying out useful cmdlets and following tutorials to write basic functions. However, nothing sinks in as well as when we work on a project with specific goals that stretch our PowerShell knowledge.
 
-For me, one such project has been [Locksmith](https://github.com/trimarcjake/locksmith), which I had the pleasure of joining earlier this year. While working on an enhancement for the Locksmith PowerShell module, I had to ask myself for the first time, **can I return multiple objects from a PowerShell function?**
+For me, one such project has been [Locksmith](https://github.com/trimarcjake/locksmith){:target="_blank"}, which I had the pleasure of joining earlier this year. While working on an enhancement for the Locksmith PowerShell module, I had to ask myself for the first time, **can I return multiple objects from a PowerShell function?**
 
 The answer is yes, you can return multiple objects from a PowerShell function, and there are multiple ways to do it.
 
@@ -146,13 +146,13 @@ Root Vegetables:
 Potato, Sweet Potato, Turnip, Radish
 ```
 
-I like it! Let’s get back to [Locksmith](https://github.com/trimarcjake/locksmith) so you can see it put to practical use. My goal was to call a number of scans from a private function and then return the results of each scan back to the [main function](https://github.com/TrimarcJake/Locksmith/blob/2d54c5b1171f4a8c392e0b21a3a00eb7dd258149/Public/Invoke-Locksmith.ps1#L191). We needed to be able to reliably reference each result as a named array for the next steps.
+I like it! Let’s get back to [Locksmith](https://github.com/trimarcjake/locksmith){:target="_blank"} so you can see it put to practical use. My goal was to call a number of scans from a private function and then return the results of each scan back to the [main function](https://github.com/TrimarcJake/Locksmith/blob/2d54c5b1171f4a8c392e0b21a3a00eb7dd258149/Public/Invoke-Locksmith.ps1#L191){:target="_blank"}. We needed to be able to reliably reference each result as a named array for the next steps.
 
 ```powershell
 $Results = Invoke-Scans -Scans $Scans
 ```
 
-The [Invoke-Scans](https://github.com/TrimarcJake/Locksmith/blob/main/Private/Invoke-Scans.ps1) function does its work and then returns the results with the following:
+The [Invoke-Scans](https://github.com/TrimarcJake/Locksmith/blob/main/Private/Invoke-Scans.ps1){:target="_blank"} function does its work and then returns the results with the following:
 
 ```powershell
 # Start Condensed Example
@@ -176,7 +176,7 @@ Return @{
 }
 ```
 
-Back in the main [Invoke-Locksmith function](https://github.com/TrimarcJake/Locksmith/blob/2d54c5b1171f4a8c392e0b21a3a00eb7dd258149/Public/Invoke-Locksmith.ps1#L192), we can now work with these results much more easily. As noted above, hash table values can be pulled by referencing their key name, like `$Results['ESC1']`, which will return all findings in the `$ESC1` array.
+Back in the main [Invoke-Locksmith function](https://github.com/TrimarcJake/Locksmith/blob/2d54c5b1171f4a8c392e0b21a3a00eb7dd258149/Public/Invoke-Locksmith.ps1#L192){:target="_blank"}, we can now work with these results much more easily. As noted above, hash table values can be pulled by referencing their key name, like `$Results['ESC1']`, which will return all findings in the `$ESC1` array.
 
 Alternatively, we can save them as new variables in the main function, making things even easier for repeated use.
 
@@ -201,4 +201,4 @@ Be sure to check out the Locksmith project if you're interested in Active Direct
 Peace.  
 Sam
 
-Photo by <a href="https://unsplash.com/@aeschwarz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrian Schwarz</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-night-lights-XS7q-baZrmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@aeschwarz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrian Schwarz</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-night-lights-XS7q-baZrmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"  target="_blank">Unsplash</a>
