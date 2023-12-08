@@ -76,7 +76,7 @@ While this does work, it is still unfriendly, error-prone, and requires you to a
 After an embarrassingly long time, a light finally came on in my head. 
 
 {: .box-note}
-:bulb: *The value side of a hash table entry can be any kind of object!* :bulb:
+💡 *The value side of a hash table entry can be any kind of object!* 💡
 
 I then put the *name* of the object (the array, in this case) in the key and stored the actual object (arrays) in the value.
 
