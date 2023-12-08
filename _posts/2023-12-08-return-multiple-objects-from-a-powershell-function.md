@@ -10,16 +10,11 @@ tags: [PowerShell, Locksmith]
 categories: [PowerShell]
 author: Sam Erde
 gh-repo: samerde/powershell
-gh-badge: [star, follow]
 ---
 
 One of the things that makes PowerShell so fun is the endless opportunities to learn new and better ways to do things. We all began learning it by trying out useful cmdlets and following tutorials to write basic functions. However, nothing sinks in as well as when we work on a project with specific goals that stretch our PowerShell knowledge.
 
-For me, one such project has been [Locksmith](https://github.com/trimarcjake/locksmith), which I had the pleasure of joining earlier this year.
-
-<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="250" width="250"/>
-
-While working on an enhancement for the Locksmith PowerShell module, I had to ask myself for the first time, **can I return multiple objects from a PowerShell function?**
+For me, one such project has been [Locksmith](https://github.com/trimarcjake/locksmith), which I had the pleasure of joining earlier this year. While working on an enhancement for the Locksmith PowerShell module, I had to ask myself for the first time, **can I return multiple objects from a PowerShell function?**
 
 The answer is yes, you can return multiple objects from a PowerShell function, and there are multiple ways to do it.
 
@@ -42,9 +37,8 @@ This function doesn’t do anything other than return three arrays, but you get 
 {: .box-note}
 *At this point, it’s helpful to remember that everything in PowerShell is an object. (Yes, even strings are objects!) PowerShell lets us move those objects along the pipeline, doing whatever we need to with them in the process. It’s like a powerful little shell game!* 😉
 
-…but there’s a problem! If you run this code, you’ll notice something that could be an issue: the objects are returned as what looks like an ambiguous list.
+…but there’s a problem! If you run this code, you’ll notice something that could be an issue: the objects are returned in `$Food` as what looks like an ambiguous list.
 
-`$Food`
 ```powershell
 Apple
 Orange
@@ -97,8 +91,8 @@ function Get-Food {
     $RootVegetable = @("Potato","Sweet Potato","Turnip","Radish")
 
     Return @{
-        TreeFruit = $TreeFruit
-        Squash = $Squash
+        TreeFruit     = $TreeFruit
+        Squash        = $Squash
         RootVegetable = $RootVegetable
     }
 }
@@ -202,6 +196,7 @@ $ESC8           = $Results['ESC8']
 
 That’s it! That’s the tip. Return multiple named objects from a function but using a hash table to name and store them. Let me know if this helps with any of your projects, or if you have an even better way to do it!
 
-Peace.
+If you're interested in Active Directory, Active Directory Certificate Services, or PKI, be sure to check out the Locksmith project! [<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="250" width="250" />](https://github.com/trimarcjake/locksmith)
 
+Peace.  
 Sam
