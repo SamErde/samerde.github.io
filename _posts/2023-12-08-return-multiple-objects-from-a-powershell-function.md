@@ -196,7 +196,7 @@ That’s it! That’s the tip. Return multiple named objects from a function but
 
 Be sure to check out the Locksmith project if you're interested in Active Directory, Active Directory Certificate Services, or PKI in general.
 
-[<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="250" width="250" />](https://github.com/trimarcjake/locksmith)
+[<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="250" width="250" />](https://github.com/trimarcjake/locksmith){:target="_blank"}
 
 Peace.  
 Sam
