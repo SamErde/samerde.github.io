@@ -94,7 +94,7 @@ rss-description: Sam's notes about enterprise IT with a focus on automation, des
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+  facebook: true
   linkedin: true
   vk: false
 
