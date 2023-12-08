@@ -3,8 +3,8 @@ layout: post
 title: Return Multiple Objects from a PowerShell Function
 subtitle: Hash tables are back with another slick use case!
 date:   2023-12-08 09:00:00 -0500
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
+cover-img: /assets/img/banners/adrian-schwarz-XS7q-baZrmE-unsplash.jpg
+thumbnail-img: /assets/img/thumbnails/adrian-schwarz-XS7q-baZrmE-unsplash.jpg
 share-img: /assets/img/path.jpg
 tags: [PowerShell, Locksmith]
 categories: [PowerShell]
@@ -200,3 +200,5 @@ Be sure to check out the Locksmith project if you're interested in Active Direct
 
 Peace.  
 Sam
+
+Photo by <a href="https://unsplash.com/@aeschwarz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adrian Schwarz</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-night-lights-XS7q-baZrmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
