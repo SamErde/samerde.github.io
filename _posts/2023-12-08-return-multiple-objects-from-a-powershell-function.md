@@ -17,7 +17,7 @@ One of the things that makes PowerShell so fun is the endless opportunities to l
 
 For me, one such project has been [Locksmith](https://github.com/trimarcjake/locksmith), which I had the pleasure of joining earlier this year.
 
-<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="350" width="350"/>
+<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="250" width="250"/>
 
 While working on an enhancement for the Locksmith PowerShell module, I had to ask myself for the first time, **can I return multiple objects from a PowerShell function?**
 
