@@ -39,13 +39,8 @@ $Food = Get-Food
 
 This function doesn’t do anything other than return three arrays, but you get the idea. You can return any kind of object, or a mix of different object types. Cool!
 
----
-
-*At this point, it’s helpful to remember that everything in PowerShell is an object. (Yes, even strings are objects!) PowerShell lets us move those objects along the pipeline, doing whatever we need to with them in the process. It’s like a powerful little shell game!*
-
----
-
-Sorry, :drum: aside…
+{: .box-note}
+*At this point, it’s helpful to remember that everything in PowerShell is an object. (Yes, even strings are objects!) PowerShell lets us move those objects along the pipeline, doing whatever we need to with them in the process. It’s like a powerful little shell game!* 😉
 
 …but there’s a problem! If you run this code, you’ll notice something that could be an issue: the objects are returned as what looks like an ambiguous list.
 
