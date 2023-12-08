@@ -2,7 +2,7 @@
 layout: post
 title: Return Multiple Objects from a PowerShell Function
 subtitle: Hash tables are back with another slick use case!
-date:   2023-12-08 05:00:00 -0500
+date:   2023-12-08 09:00:00 -0500
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
@@ -17,7 +17,7 @@ One of the things that makes PowerShell so fun is the endless opportunities to l
 
 For me, one such project has been [Locksmith](https://github.com/trimarcjake/locksmith), which I had the pleasure of joining earlier this year.
 
-<img src="https://github.com/samerde.github.io/assets/img/locksmith.jpg" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." style="height: 350px; width: 350px;"/>
+<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="350" width="350"/>
 
 While working on an enhancement for the Locksmith PowerShell module, I had to ask myself for the first time, **can I return multiple objects from a PowerShell function?**
 
