@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Sam's Notepad
+title: Day 3 Bits
 
 # Your name to show in the footer
 author: Sam Erde
@@ -53,23 +53,23 @@ round-avatar: true
 social-network-links:
 #  email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: deanattali
+#  facebook: yourname
   github: SamErde
   twitter: SamErde
-#  patreon: DeanAttali
-#  youtube: c/daattali
+#  patreon: yourname
+#  youtube: c/samerde
 #  medium: yourname
-#  reddit: yourname
+#  reddit: SturdyErde
   linkedin: SamErde
 #  xing: yourname
 #  stackoverflow: "1445236/sam-erde"
   stackoverflow: "49571/sam-erde"
 #  serverfault: "49571/sam-erde"
-#  snapchat: deanat78
-#  instagram: deanat78
+#  snapchat: yourname
+#  instagram: yourname
 #  spotify: yourname
 #  telephone: +14159998888
-#  steam: deanat78
+#  steam: yourname
 #  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
@@ -85,7 +85,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Sam's notes about enterprise IT with a focus on automation, design, and security. Frequent topics will include Microsoft Active Directory, Microsoft Defender XDR, Entra ID, Intune, Microsoft 365, PowerShell, and Windows Server.
+rss-description: Notes about enterprise IT with a focus on automation, design, security, user experience. The primary goal is to seek operational maturity through continuous focused growth and improvement. Frequent technical topics will cover the Microsoft ecosystem, but not will not exclusively be about Active Directory, Defender XDR, Entra ID, Intune, Microsoft 365, PowerShell, and Windows Server.
 
 ###########################
 # --- General options --- #
@@ -94,7 +94,7 @@ rss-description: Sam's notes about enterprise IT with a focus on automation, des
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+  facebook: true
   linkedin: true
   vk: false
 
@@ -123,7 +123,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Active Directory,Entra ID,Defender,Defender XDR,Intune,Microsoft 365,Microsoft,PowerShell,Windows,Windows Server,IT infrastructure"
 
 ######################################
 # --- Colours / background image --- #
