@@ -85,7 +85,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Notes about enterprise IT with a focus on automation, design, security, user experience. The primary goal is to seek operational maturity through continuous focused growth and improvement. Frequent technical topics will cover the Microsoft ecosystem, but not will not exclusively be about Active Directory, Defender XDR, Entra ID, Intune, Microsoft 365, PowerShell, and Windows Server.
+rss-description: Notes about enterprise IT with a focus on automation, design, security, user experience. Sam's primary goal is to promote the growth of operational maturity (not just modernization) through intentional growth and continuous improvement. Frequent technical topics will cover the Microsoft ecosystem, but not will not exclusively be about Active Directory, Defender XDR, Entra ID, Intune, Microsoft 365, PowerShell, and Windows Server.
 
 ###########################
 # --- General options --- #
