@@ -51,13 +51,13 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-#  email: "someone@example.com"
+  email: "sam@day3bits.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: yourname
   github: SamErde
   twitter: SamErde
 #  patreon: yourname
-#  youtube: c/samerde
+#  youtube: @samerde
 #  medium: yourname
 #  reddit: SturdyErde
   linkedin: SamErde
@@ -67,7 +67,7 @@ social-network-links:
 #  serverfault: "49571/sam-erde"
 #  snapchat: yourname
 #  instagram: yourname
-#  spotify: yourname
+#  spotify: SamErde
 #  telephone: +14159998888
 #  steam: yourname
 #  twitch: yourname
