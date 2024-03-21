@@ -88,7 +88,7 @@ function Get-Food {
     $Squash = @("Pumpkin","Acorn Squash","Winter Squash")
     $RootVegetable = @("Potato","Sweet Potato","Turnip","Radish")
 
-    Return @{
+    @{
         TreeFruit     = $TreeFruit
         Squash        = $Squash
         RootVegetable = $RootVegetable
@@ -163,7 +163,7 @@ The [Invoke-Scans](https://github.com/TrimarcJake/Locksmith/blob/main/Private/In
 
 # Later, at the end of the function: 
 # Return a hash table of array names (keys) and arrays (values)
-Return @{
+@{
     AllIssues = $AllIssues
     AuditingIssues = $AuditingIssues
     ESC1 = $ESC1
