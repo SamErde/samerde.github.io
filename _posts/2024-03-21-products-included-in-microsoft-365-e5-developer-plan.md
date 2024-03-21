@@ -2,7 +2,7 @@
 layout: post
 title: Products Included with Microsoft 365 E5 Developer Subscriptions
 subtitle: What is currently included when you sign up for a Microsoft 365 E5 developer subscription?
-date:   2024-03-21 10:00:00 -0500
+date:   2024-03-21 09:00:00 -0500
 cover-img: 
 thumbnail-img: 
 share-img: 
