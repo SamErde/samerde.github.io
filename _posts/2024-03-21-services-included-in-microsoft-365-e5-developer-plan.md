@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Products Included with Microsoft 365 E5 Developer Subscriptions
+title: Services Included with Microsoft 365 E5 Developer Subscriptions
 subtitle: What is currently included when you sign up for a Microsoft 365 E5 developer subscription?
 date:   2024-03-21 09:00:00 -0500
-cover-img: 
-thumbnail-img: 
-share-img: 
-tags: [Microsoft-365, M365, cloud]
+cover-img: /assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg
+thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
+share-img: "https://samerde.github.io/assets/img/social/M365-E5-Developer-SKU.png"
+tags: [Microsoft-365, M365, Cloud]
 categories: [Microsoft 365]
 author: Sam Erde
 gh-repo: samerde/powershell
 ---
 
-Welcome back! This blog isn't DOA, but I definitely am still learning to create a habit of writing. Here's a quick hit that falls into the "make notes and share them" category.
+Welcome back! Here's a quick hit that falls into the "make notes and share them" category.
 
 During the first quarter of 2024, Microsoft [announced some unfortunate changes to the developer program](https://devblogs.microsoft.com/microsoft365dev/stay-ahead-of-the-game-with-the-latest-updates-to-the-microsoft-365-developer-program/). There have been many posts about how far fewer people will have access to this amazing learning and developing resource. I won't dive into that again in this post. For now, I wanted to create an easy reference for one other question that often comes up: "if it's E5, but not all services are actually included, which ones *are*?" (Spoiler: Microsoft Defender for Endpoint is still excluded.) The announcement states:
 
@@ -98,3 +98,5 @@ If you're reading this, I hope you've been fortunate enough to have your develop
 
 Happy learning!
 Sam
+
+Photo by <a href="https://unsplash.com/@kensuarez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ken Suarez</a> on <a href="https://unsplash.com/photos/black-and-white-computer-keyboard-4IxPVkFGJGI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
