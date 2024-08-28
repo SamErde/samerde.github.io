@@ -11,6 +11,9 @@ tags: powershell automation scripting
 ```powershell
 # Join multiple child paths in Windows PowerShell or PowerShell
 Join-Path -Path $HOME -ChildPath "Documents" | Join-Path -ChildPath "PowerShell" | Join-Path -ChildPath "Modules"
+
+# Or, even worse:
+Join-Path -Path $HOME -ChildPath "Documents" | Join-Path -ChildPath (Join-Path -Path "PowerShell" -ChildPath "Modules")
 ```
 
 
@@ -32,7 +35,3 @@ Join-Path -Path $HOME -ChildPath "Documents -AdditionalChildPaths $AdditionalChi
 [string[]]$Segments = @($HOME,"Documents","PowerShell","Modules")
 [System.IO.Path]::Combine($Segments)
 ```
-
- > Spoilers: the list has grown to over 150! This is going to be a fun project!
-
-[Automate all of the things!.gif](https://#)
