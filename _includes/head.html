@@ -78,7 +78,7 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
@@ -150,6 +150,11 @@
 
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
+  {% endif %}
+
+  {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
+  {% if favicon_exists == 1 %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
   {% endif %}
 
   {% if page.head-extra %}
