@@ -13,8 +13,6 @@ thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/M365-E5-Developer-SKU.png"
 ---
 
-# The Benefits of Ditching the Az and Microsoft.Graph PowerShell Modules
-
 The Microsoft Graph SDK v2.23.0 was released today, and with it, the updated Microsoft Graph PowerShell module. You can use `Update-Module` or `Update-PSResource` to update this module, or you can try out my new [PSPReworkout](https://day3bits.com/PSPreworkout) module's `Update-AllTheThings` function.
 
 {: .box-note}
