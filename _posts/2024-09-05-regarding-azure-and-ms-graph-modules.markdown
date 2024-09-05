@@ -23,10 +23,13 @@ The Microsoft Graph SDK v2.23.0 was released today, and with it, the updated Mic
 > Update-AllTheThings
 > ```
 
-Regardless of how you update, you may find that it takes a terribly long time to update these modules. Minutes, even!!! (The horror.) Many people have probably followed the same steps that I did to get here, and many of us have wasted hours while waiting for the Update-Module and Update-Help commands to finish.
+Regardless of how you update, you may find that it takes a terribly long time to update these modules. Minutes, even!!! 😱 Many people have probably followed the same steps that I did to get here, and many of us have wasted hours while waiting for the Update-Module and Update-Help commands to finish.
 
-- `Install-Module -Name Az`
-- `Install-Module -Name Microsoft.Graph`
+```powershell
+# We installed ALL OF THE THINGS 🧹🤪
+Install-Module -Name Az
+Install-Module -Name Microsoft.Graph
+```
 
 When we use these commands, we don't just install one module or two modules. As of this writing:
 - The Az module includes 171 service submodules. (See [Azure PowerShell Modules](https://github.com/Azure/azure-powershell/blob/main/documentation/azure-powershell-modules.md).)
@@ -37,7 +40,7 @@ We just installed 211 modules on our system, and many of us will only ever use 1
 My advice to you now is to review the modules installed on your system and uninstall any that you do not use. Start with `Get-InstalledModule` to view a list of all modules that you have installed.
 
 {: .box-tip}
-Using `Get-InstalledModule` instead of `Get-Module -ShowAvailable` will help filter out the modules that come pre-installed with your OS. Don't waste more time by trying to manually filter through that list.
+> Using `Get-InstalledModule` instead of `Get-Module -ShowAvailable` will help filter out the modules that come pre-installed with your OS. Don't waste more time by trying to manually filter through that list.
 
 If you need to remove modules that were installed for the AllUsers scope, then you will need to begin this process with an elevated PowerShell session.
 
@@ -69,10 +72,10 @@ foreach ($module in $ModulesToInstall) { Install-Module -Name $module -Scope Cur
 
 Check your results with `Get-InstalledModule`. (What other modules do you have installed? Let me know!) You can now reap the benefits of having fewer PowerShell modules installed:
 
-- *Faster Auto-Import and Tab-Completion:* With fewer modules, PowerShell has fewer cmdlets and functions to load and index, which can speed up the auto-import process and make tab-completion more responsive.
-- *Reduced Memory Usage:* Each module loaded into a PowerShell session consumes memory. By removing unused modules, you can reduce the overall memory footprint of your PowerShell environment.
-- *Avoiding Conflicts:* Having many modules installed can sometimes lead to cmdlet name conflicts, where multiple modules define cmdlets with the same name. Reducing the number of installed modules can help avoid these conflicts.
-- *Improved Security:* Unused modules might not be regularly updated, potentially leaving security vulnerabilities unpatched. Removing them reduces the attack surface and helps maintain a more secure environment.
-- *Simplified Management:* Fewer modules mean less complexity in managing updates and dependencies, making it easier to keep your environment up to date and stable.
+- **Faster Auto-Import and Tab-Completion:** With fewer modules, PowerShell has fewer cmdlets and functions to load and index, which can speed up the auto-import process and make tab-completion more responsive.
+- **Reduced Memory Usage:** Each module loaded into a PowerShell session consumes memory. By removing unused modules, you can reduce the overall memory footprint of your PowerShell environment.
+- **Avoiding Conflicts:** Having many modules installed can sometimes lead to cmdlet name conflicts, where multiple modules define cmdlets with the same name. Reducing the number of installed modules can help avoid these conflicts.
+- **Improved Security:** Unused modules might not be regularly updated, potentially leaving security vulnerabilities unpatched. Removing them reduces the attack surface and helps maintain a more secure environment.
+- **Simplified Management:** Fewer modules mean less complexity in managing updates and dependencies, making it easier to keep your environment up to date and stable.
 
 Try it out and let me know if you notice the difference!
