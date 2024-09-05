@@ -26,10 +26,10 @@ The Microsoft Graph SDK v2.23.0 was released today, and with it, the updated Mic
 > Update-AllTheThings
 > ```
 
-Regardless of how you update, you may find that it takes a terribly long time to update these modules. Minutes, even!!! (The horror.) Many people have probably followed the same steps that I did to get here, and many of us have wasted hours while waiting for Update-Module and Update-Help commands to finish.
+Regardless of how you update, you may find that it takes a terribly long time to update these modules. Minutes, even!!! (The horror.) Many people have probably followed the same steps that I did to get here, and many of us have wasted hours while waiting for the Update-Module and Update-Help commands to finish.
 
-`Install-Module -Name Az`
-`Install-Module -Name Microsoft.Graph`
+- `Install-Module -Name Az`
+- `Install-Module -Name Microsoft.Graph`
 
 When we use these commands, we don't just install one module or two modules. As of this writing, the Az module includes 171 service submodules. (See [Azure PowerShell Modules](https://github.com/Azure/azure-powershell/blob/main/documentation/azure-powershell-modules.md).) The Microsoft.Graph PowerShell module includes 38 service submodules. (See [Microsoft Graph PowerShell Modules](https://github.com/microsoftgraph/msgraph-sdk-powershell/wiki/MS-Graph-PowerShell-Modules).)
 
