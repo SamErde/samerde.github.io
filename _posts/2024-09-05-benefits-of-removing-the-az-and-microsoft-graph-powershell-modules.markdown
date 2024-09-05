@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Removing the Az and Microsoft.Graph PowerShell Modules to Save Time"
+title:  "The Benefits of Removing the Az and Microsoft.Graph PowerShell Modules"
 subtitle: Save time and simplify your workspace by removing all unused PowerShell modules.
 date:   2024-09-05 09:00:00 -0400
 author: Sam Erde
