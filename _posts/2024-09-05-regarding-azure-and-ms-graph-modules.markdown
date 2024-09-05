@@ -1,10 +1,16 @@
 ---
 layout: post
 title:  "The Benefits of Ditching the Az and Microsoft.Graph PowerShell Modules"
+subtitle: Save time and simplify your workspace by removing all unused PowerShell modules.
 date:   2024-09-05 09:00:00 -0400
 author: Sam Erde
 categories: powershell
-tags: powershell automation scripting Azure Microsoft-Graph
+tags: [powershell automation scripting Azure Microsoft-Graph]
+author: Sam Erde
+gh-repo: samerde/powershell
+cover-img: /assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg
+thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
+share-img: "https://samerde.github.io/assets/img/social/M365-E5-Developer-SKU.png"
 ---
 
 # The Benefits of Ditching the Az and Microsoft.Graph PowerShell Modules
