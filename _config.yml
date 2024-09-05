@@ -25,6 +25,9 @@ navbar-links:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
   Linktree: "https://linktr.ee/SamErde"
+  PowerShell Modules:
+    - PSPreworkout: "https://day3bits.com/PSPreworkout"
+    - TheCleaners: "https://day3bits.com/TheCleaners"
 
 ################
 # --- Logo --- #
