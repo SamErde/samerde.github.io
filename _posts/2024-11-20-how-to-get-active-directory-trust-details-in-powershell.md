@@ -12,7 +12,7 @@ author: Sam Erde
 gh-repo: samerde/powershell
 ---
 
-Through most of the past 16 years of working with Active Directory, I have supported and worked in multi-forest environments. This work has involved one forest being split into 3 forests, a cross-forest migration of Exchange Server (I was spared the first one), and multiple forest consolidation projects. At various points throughout that timeline, I have had to write PowerShell scripts that need to identify either the DNS name, NetBIOS name, or SID of domains in the trust relationship. This information is easy to get using the ActiveDirectory module's `Get-ADTrust` cmdlet.
+Through most of the past 16 years of working with Active Directory, I have supported and worked in multi-forest environments. This work has involved one forest being split into 3 forests, a cross-forest migration of Exchange Server (I was spared the first one), and multiple forest consolidation projects. At various points throughout that timeline, I have needed to write PowerShell scripts that rely on either the DNS name, NetBIOS name, or SID of domains in the trust relationship. This information is easy to get using the ActiveDirectory module's `Get-ADTrust` cmdlet.
 
 ```powershell
 Get-ADTrust -Filter *
