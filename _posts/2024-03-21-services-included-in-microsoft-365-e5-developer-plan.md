@@ -94,9 +94,9 @@ Whiteboard (Plan 3)
 Yammer Enterprise
 ```
 
-If you're reading this, I hope you've been fortunate enough to have your developer tenant renewed for now! 
+If you're reading this, I hope you've been fortunate enough to have your developer tenant renewed for now!
 
-Happy learning!  
+Happy learning!
 Sam
 
 Photo by <a href="https://unsplash.com/@kensuarez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ken Suarez</a> on <a href="https://unsplash.com/photos/black-and-white-computer-keyboard-4IxPVkFGJGI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

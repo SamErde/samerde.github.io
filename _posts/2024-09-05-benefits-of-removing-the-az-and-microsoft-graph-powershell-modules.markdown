@@ -5,7 +5,7 @@ subtitle: Save time and simplify your workspace by removing all unused PowerShel
 date:   2024-09-05 09:00:00 -0400
 author: Sam Erde
 categories: powershell
-tags: [powershell automation scripting Azure Microsoft-Graph]
+tags: [powershell, automation, scripting, Azure, Microsoft Graph]
 author: Sam Erde
 gh-repo: samerde/powershell
 cover-img: /assets/img/banners/samu-lopez-T6u10VL2kjo-unsplash.jpg
