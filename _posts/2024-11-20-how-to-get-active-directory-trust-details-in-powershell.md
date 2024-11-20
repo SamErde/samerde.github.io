@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Get Active Directory Trust Details in PowerShell
-subtitle: In which .NET provides an unexpected solution to a question I have had for years.
+subtitle: In which .NET inspires a solution to a question I had for years.
 date:   2024-11-20 12:00:00 -0500
 # cover-img: /assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 # thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
