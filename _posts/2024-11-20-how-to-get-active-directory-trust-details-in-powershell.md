@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Get Active Directory Trust Details in PowerShell
-subtitle: In which .NET inspires a solution to a question I had for years.
+subtitle: In which .NET inspires an answer to a question I had for years.
 date:   2024-11-20 12:00:00 -0500
 # cover-img: /assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 # thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
@@ -46,9 +46,7 @@ Get-ADTrust -Filter *
 
 Now for the embarrassing part of this post: for a painfully long time, I thought the target domain's NetBIOS name and domain SID were not returned by the `Get-ADTrust` cmdlet. 🤦‍♂️
 
-Guess what, Past Sam Erde?
-It is there.
-You just need to look closer. 🕵️‍♂️
+Guess what, Past Sam Erde? It is there. You just need to look closer. 🕵️‍♂️
 
 This cmdlet can return the **flatName** property, which *is* the target domain's NetBIOS name, and **securityIdentifier**, which is the target domain's SID. All you needs is `Get-ADTrust -Filter * -Properties flatName,securityIdentifier`. To remind myself, let's display the results in a pretty table with labels that make sense:
 
@@ -63,9 +61,12 @@ $Forest = [System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest()
 $TrustRelationships = $Forest.GetAllTrustRelationships()
 $TrustRelationships.TrustedDomainInformation
 
-> DnsName         NetBiosName     DomainSid                                Status
-> -------         -----------     ---------                                ------
-> example.com     EXAMPLE         S-1-5-21-000000000-1234567890-1234567890 Enabled
+<# Example Output:
+
+    DnsName         NetBiosName     DomainSid                                Status
+    -------         -----------     ---------                                ------
+    example.com     EXAMPLE         S-1-5-21-000000000-1234567890-1234567890 Enabled
+#>
 ```
 
 I honestly like this approach better!
