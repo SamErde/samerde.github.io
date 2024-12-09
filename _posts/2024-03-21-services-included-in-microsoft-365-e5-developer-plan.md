@@ -6,7 +6,7 @@ date:   2024-03-21 09:00:00 -0500
 cover-img: /assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/M365-E5-Developer-SKU.png"
-tags: [Microsoft-365, M365, Cloud]
+tags: [Microsoft 365, M365, Cloud]
 categories: [Microsoft 365]
 author: Sam Erde
 gh-repo: samerde/powershell

@@ -8,6 +8,9 @@ categories: [PowerShell]
 tags: [PowerShell, Automation, Scripting, .NET]
 author: Sam Erde
 gh-repo: samerde/powershell
+cover-img: /assets/img/banners/jens-lelie-paths-u0vgcIOQG08-medium.jpg
+thumbnail-img: /assets/img/thumbnails/jens-lelie-paths-u0vgcIOQG08-th.jpg
+share-img: "https://samerde.github.io/assets/img/social/Revisiting Join-Path in PowerShell.png"
 ---
 
 Many people have already written about the benefits of using PowerShell's `Join-Path` cmdlet. Instead of repeating the details, let's review some of the less common tricks, and then look at the differences between Windows PowerShell 5.1 and newer versions of PowerShell.
@@ -70,3 +73,5 @@ You might notice an emerging theme when we look into one more option that works 
 ![A screen shot of Windows Terminal running the following command in Ubuntu (WSL): '[System.IO.Path]::Combine($HOME,"Documents","PowerShell","Modules")'.](https://samerde.github.io/assets/img/content/Path-Combine.png)
 
 That looks like a nice, clean option that runs almost anywhere and is easy to read!
+
+Photo by <a href="https://unsplash.com/@madebyjens?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jens Lelie</a> on <a href="https://unsplash.com/photos/two-roads-between-trees-u0vgcIOQG08?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
