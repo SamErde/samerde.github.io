@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Going Back in Time with Join-Path in PowerShell"
-subtitle: Tips and tricks for using Join-Path in cross-platform PowerShell scripts.
+title:  "Revisiting Join-Path in PowerShell"
+subtitle: Tips for using Join-Path in backwards-compatible and cross-platform PowerShell scripts.
 date:   2024-12-09 06:45:00 -0400
 author: Sam Erde
 categories: [PowerShell]
@@ -25,7 +25,7 @@ Join-Path
 ```
 
 You may not have realized that it supports wildcards in the parent and child paths, and can return an array of strings that represent paths.
-![A screen shot of PowerShell in Windows Terminal running the command 'Join-Path -Path "$Home\AppData\Local*" -ChildPath "Microsoft*" -Resolve'.]('/img/content/Join-Path Wildcards.png')
+![A screen shot of PowerShell in Windows Terminal running the command 'Join-Path -Path "$Home\AppData\Local*" -ChildPath "Microsoft*" -Resolve'.](https://samerde.github.io/assets/img/content/Join-Path Wildcards.png)
 
 It can also accept multiple parent paths and return multiple resolved paths:
 ![A screen shot of PowerShell in Windows Terminal running the command 'Join-Path -Path C:\, C:\Windows, $env:LOCALAPPDATA -ChildPath "Temp" -Resolve'.]('/img/content/Join-Path Multiple Parents.png')
