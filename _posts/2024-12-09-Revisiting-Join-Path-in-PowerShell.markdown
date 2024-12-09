@@ -28,7 +28,7 @@ You may not have realized that it supports wildcards in the parent and child pat
 ![A screen shot of PowerShell in Windows Terminal running the command 'Join-Path -Path "$Home\AppData\Local*" -ChildPath "Microsoft*" -Resolve'.](https://samerde.github.io/assets/img/content/Join-Path-Wildcards.png)
 
 It can also accept multiple parent paths and return multiple resolved paths:
-![A screen shot of PowerShell in Windows Terminal running the command Join-Path -Path C:\, C:\Windows, $env:LOCALAPPDATA -ChildPath "Temp" -Resolve.]('https://samerde.github.io/assets/img/content/Join-Path-Multiple-Parents.png')
+![A screen shot of PowerShell in Windows Terminal running an example of Join-Path with multiple parent paths.]('https://samerde.github.io/assets/img/content/Join-Path-Multiple-Parents.png')
 
 The difference between Windows PowerShell and PowerShell becomes apparent when you want to join more than one child path. PowerShell added the **AditionalPath** parameter, which allows you to add virtually unlimited child paths like this:
 
