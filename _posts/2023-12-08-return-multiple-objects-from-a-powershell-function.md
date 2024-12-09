@@ -73,7 +73,7 @@ $RootVegetable = $Food[2]
 
 While this does work, it is still unfriendly, error-prone, and requires you to already know the order of objects being returned. And what if the objects returned aren’t arrays? They could be integers or booleans. It is a very unreliable way to manage code for any project, especially one being developed by a team.
 
-After an embarrassingly long time, a light finally came on in my head. 
+After an embarrassingly long time, a light finally came on in my head.
 
 {: .box-note}
 💡 *The value side of a hash table entry can be any kind of object!* 💡
@@ -106,7 +106,7 @@ Apple
 Orange
 Peach
 
-> $Results['Squash']   
+> $Results['Squash']
 Pumpkin
 Acorn Squash
 Winter Squash
@@ -161,7 +161,7 @@ The [Invoke-Scans](https://github.com/TrimarcJake/Locksmith/blob/main/Private/In
 [array]$ESC2 = Find-ESC2 -ADCSObjects $ADCSObjects -SafeUsers $SafeUsers
 # End Condensed Example
 
-# Later, at the end of the function: 
+# Later, at the end of the function:
 # Return a hash table of array names (keys) and arrays (values)
 @{
     AllIssues = $AllIssues
@@ -198,7 +198,7 @@ Be sure to check out the Locksmith project if you're interested in Active Direct
 
 [<img src="https://samerde.github.io/assets/img/locksmith.png" alt="An image of the first Locksmith sticker: a coral-colored padlock with the basic PowerShell prompt characters on the front. The top caption says, 'Got AD CS?' and the bottom caption says, 'Invoke-Locksmith' on a purple background." height="250" width="250" />](https://github.com/trimarcjake/locksmith){:target="_blank"}
 
-Peace.  
+Peace.
 Sam
 
 Photo by <a href="https://unsplash.com/@aeschwarz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"  target="_blank">Adrian Schwarz</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-night-lights-XS7q-baZrmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
