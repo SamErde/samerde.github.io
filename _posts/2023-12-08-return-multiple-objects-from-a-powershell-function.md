@@ -32,12 +32,12 @@ function Get-Food {
 $Food = Get-Food
 ```
 
-This function doesn’t do anything other than return three arrays, but you get the idea. You can return any kind of object, or a mix of different object types. Cool!
+This function doesn't do anything other than return three arrays, but you get the idea. You can return any kind of object, or a mix of different object types. Cool!
 
 {: .box-note}
-*At this point, it’s helpful to remember that everything in PowerShell is an object. (Yes, even strings are objects!) PowerShell lets us move those objects along the pipeline, doing whatever we need to with them in the process. It’s like a powerful little shell game!* 😉
+*At this point, it's helpful to remember that everything in PowerShell is an object. (Yes, even strings are objects!) PowerShell lets us move those objects along the pipeline, doing whatever we need to with them in the process. It’s like a powerful little shell game!* 😉
 
-…but there’s a problem! If you run this code, you’ll notice something that could be an issue: the objects that are returned in `$Food` look like an ambiguous list.
+…but there's a problem! If you run this code, you’ll notice something that could be an issue: the objects that are returned in `$Food` look like an ambiguous list.
 
 ```powershell
 Apple
@@ -55,13 +55,14 @@ Radish
 The array names are gone, so if you want to reference a specific type of food from the results, you have to find a creative way to get it. What if you need to enumerate the TreeFruit array, and then enumerate the RootVegetable array later in a different function?
 
 We can try using imatch to find arrays that might contain words we know:
+
 ```powershell
 $TreeFruit = $Food -imatch "Apple"
 $Squash = $Food -imatch "Squash"
 $RootVegetable = $Food -imatch "Turnip"
 ```
 
-This isn’t very friendly code and also depends on you knowing one of the values, which defeats the whole point to begin with.
+This isn't very friendly code and also depends on you knowing one of the values, which defeats the whole point to begin with.
 
 We could try rebuilding the arrays by referencing the index of each object returned:
 
@@ -71,7 +72,7 @@ $Squash = $Food[1]
 $RootVegetable = $Food[2]
 ```
 
-While this does work, it is still unfriendly, error-prone, and requires you to already know the order of objects being returned. And what if the objects returned aren’t arrays? They could be integers or booleans. It is a very unreliable way to manage code for any project, especially one being developed by a team.
+While this does work, it is still unfriendly, error-prone, and requires you to already know the order of objects being returned. And what if the objects returned aren't arrays? They could be integers or booleans. It is a very unreliable way to manage code for any project, especially one being developed by a team.
 
 After an embarrassingly long time, a light finally came on in my head.
 
@@ -146,7 +147,7 @@ Root Vegetables:
 Potato, Sweet Potato, Turnip, Radish
 ```
 
-I like it! Let’s get back to [Locksmith](https://github.com/trimarcjake/locksmith){:target="_blank"} so you can see it put to practical use. My goal was to call a number of scans from a private function and then return the results of each scan back to the [main function](https://github.com/TrimarcJake/Locksmith/blob/2d54c5b1171f4a8c392e0b21a3a00eb7dd258149/Public/Invoke-Locksmith.ps1#L191){:target="_blank"}. We needed to be able to reliably reference each result as a named array for the next steps.
+I like it! Let's get back to [Locksmith](https://github.com/trimarcjake/locksmith){:target="_blank"} so you can see it put to practical use. My goal was to call a number of scans from a private function and then return the results of each scan back to the [main function](https://github.com/TrimarcJake/Locksmith/blob/2d54c5b1171f4a8c392e0b21a3a00eb7dd258149/Public/Invoke-Locksmith.ps1#L191){:target="_blank"}. We needed to be able to reliably reference each result as a named array for the next steps.
 
 ```powershell
 $Results = Invoke-Scans -Scans $Scans
@@ -192,7 +193,7 @@ $ESC6           = $Results['ESC6']
 $ESC8           = $Results['ESC8']
 ```
 
-That’s it! That’s the tip. Return multiple named objects from a function but using a hash table to name and store them. Let me know if this helps with any of your projects, or if you have an even better way to do it!
+That's it! That's the tip. Return multiple named objects from a function but using a hash table to name and store them. Let me know if this helps with any of your projects, or if you have an even better way to do it!
 
 Be sure to check out the Locksmith project if you're interested in Active Directory, Active Directory Certificate Services, or PKI in general.
 
