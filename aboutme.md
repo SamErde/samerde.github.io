@@ -4,9 +4,9 @@ title: About me
 subtitle: The man behind the gist
 ---
 
-👋🏼 Hi! My name is Sam Erde. Thanks for joining me here and on Twitter. I'm just this guy that has been blessed with opportunities to work with some amazing people on some really cool technology.
+👋🏼 Hi! My name is Sam Erde. Thanks for joining me here and on Twitter. I'm just this guy that has been blessed with opportunities to work with some amazing people on some really cool technology. I work at [Sentinel Technologies, Inc](https://www.sentinel.com/) on a team that is focused on Microsoft identity, security, management, and collaboration solutions.
 
-I like Visio diagrams and lists. Here is a list of some things I enjoy working with:
+I like Visio diagrams and lists, so here is a list of some things I enjoy working with:
 
 - Active Directory
 - Defender XDR (Cloud Apps, Endpoint, Identity, Office 365)
@@ -22,7 +22,7 @@ I like Visio diagrams and lists. Here is a list of some things I enjoy working w
 - coffee, espresso, and coffee
 - puns, dad jokes, and memes
 
-Cybersecurity is in the DNA of this entire list, so I identify closely with a lot of friends in the infosec space, even though I've always held systems/infrastructure roles. You have all taught me more than I ever would have learned alone!
+Cybersecurity is in the DNA of this entire list, so I identify closely with a lot of friends in the infosec/cybersecurity community, even though I've always held systems/infrastructure roles. You have all taught me more than I ever would have learned alone!
 
 When I'm not working, I enjoy:
 
@@ -34,7 +34,7 @@ When I'm not working, I enjoy:
 - puns, dad jokes, and memes
 - coffee
 
-I also love just about any kind of music. The classic IT response still applies to the question of which is my favorite genre. Want to swap playlists? Let me know!
+I also love just about any kind of music. The classic IT response still applies to the question of which is my favorite genre. ("It depends.") Want to swap playlists? Let me know!
 
 - ambient
 - classical
