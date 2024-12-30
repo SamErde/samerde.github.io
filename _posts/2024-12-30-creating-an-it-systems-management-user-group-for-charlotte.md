@@ -17,7 +17,7 @@ As IT professionals, we thrive on learning new things, tackling challenges, and 
 Since moving to the Charlotte area, I've been searching for an active user group focused on these interests. I haven't found one yet, so why not start one? Building a community takes a community, which is why I'm sharing this request:
 
 {: .box-note}
-**Will you help me organize and get a Charlotte Systems Management User Group running?** :pray:
+**Will you help me organize and get a Charlotte Systems Management User Group running?** 🙏
 
 ## Vision
 
