@@ -3,8 +3,8 @@ layout: post
 title: Creating an IT Systems Management User Group for Charlotte
 subtitle: I am looking for colleagues who share this vision for a new tech community in CLT that focuses on cybersecurity, Microsoft 365, on-premises and cloud infrastructure, PowerShell, and personal growth!
 date:   2024-12-30 09:00:00 -0500
-cover-img: /assets/img/banners/redd-francisco-5U_28ojjgms-unsplash.jpg
-thumbnail-img: /assets/img/thumbnails/redd-francisco-5U_28ojjgms-unsplash.jpg
+cover-img: /assets/img/banners/annie-spratt-QckxruozjRg-unsplash.jpg
+thumbnail-img: /assets/img/thumbnails/annie-spratt-QckxruozjRg-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/creating-an-it-systems-management-user-group-for-charlotte.png"
 tags: [User Group, Community]
 categories: [User Group, Community]
@@ -63,4 +63,4 @@ Sam
 
 ---
 
-Photo by <a href="https://unsplash.com/@reddfrancisco?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Redd Francisco</a> on <a href="https://unsplash.com/photos/people-sitting-on-chair-5U_28ojjgms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Annie Spratt</a> on <a href="https://unsplash.com/photos/group-of-people-using-laptop-computer-QckxruozjRg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
