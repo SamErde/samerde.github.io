@@ -36,7 +36,7 @@ To get things started, here is the initial vision that I would love your feedbac
 - Leaders of any of the above
 - People aspiring to be any of the above
 
-There are no superstars here. We're all at different points on our journey, all experiencing a different phase of life. Everyone has something to contribute and things to learn.
+There are no superstars here. We're all at different points on our journey, all experiencing a different phase of life. Everyone has something to contribute and things to learn!
 
 ## What topics could we discuss?
 
