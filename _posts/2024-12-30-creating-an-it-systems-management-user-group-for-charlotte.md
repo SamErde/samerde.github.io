@@ -5,7 +5,7 @@ subtitle: I am looking for colleagues who share this vision for a new tech commu
 date:   2024-12-30 09:00:00 -0500
 cover-img: /assets/img/banners/redd-francisco-5U_28ojjgms-unsplash.jpg
 thumbnail-img: /assets/img/thumbnails/redd-francisco-5U_28ojjgms-unsplash.jpg
-share-img: "https://samerde.github.io/assets/img/social/creating-an-it-systems-management-user-group-for-charlotte.jpg"
+share-img: "https://samerde.github.io/assets/img/social/creating-an-it-systems-management-user-group-for-charlotte.png"
 tags: [User Group, Community]
 categories: [User Group, Community]
 author: Sam Erde
