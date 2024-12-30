@@ -12,7 +12,7 @@ author: Sam Erde
 gh-repo: samerde/powershell
 ---
 
-As IT professionals, we thrive on learning new things, tackling challenges, and growing our skills. This helps make our work inherently satisfying, but what truly makes it meaningful is its impact on people--the colleagues, clients, and communities we serve. We can only find real meaning in our work when we understand why we do it, when we are able to contribute value to the community, and when we take care of ourselves. These ideas drive my passion to keep growing and to connect with others who feel the same. Plus, as you may have guessed, I love geeking out about PowerShell, Microsoft 365, Windows Server, and securing all the things!
+As IT professionals, we thrive on learning new things, tackling challenges, and growing our skills. While this is work inherently satisfying, we can only find real meaning in our work when we understand why we do it, when we are able to contribute value to the community, and when we take care of ourselves. These ideas drive my passion to keep growing and to connect with others who feel the same. Plus, as you may have guessed, I love geeking out about PowerShell, Microsoft 365, Windows Server, and securing all the things!
 
 Since moving to the Charlotte area, I've been searching for an active user group focused on these interests. I haven't found one yet, so why not start one? Building a community takes a community, which is why I'm sharing this request:
 
