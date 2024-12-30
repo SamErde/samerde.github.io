@@ -3,9 +3,9 @@ layout: post
 title: Creating an IT Systems Management User Group for Charlotte
 subtitle: I am looking for colleagues who share this vision for a new tech community in CLT that focuses on cybersecurity, Microsoft 365, on-premises and cloud infrastructure, PowerShell, and personal growth!
 date:   2024-12-30 09:00:00 -0500
-cover-img: /assets/img/banners/adrian-schwarz-XS7q-baZrmE-unsplash.jpg
-thumbnail-img: /assets/img/thumbnails/adrian-schwarz-XS7q-baZrmE-unsplash.jpg
-share-img: "https://samerde.github.io/assets/img/content/QRCode-for-Charlotte-Systems-Management-User-Group-Interest-Form.png"
+cover-img: /assets/img/banners/redd-francisco-5U_28ojjgms-unsplash.jpg
+thumbnail-img: /assets/img/thumbnails/redd-francisco-5U_28ojjgms-unsplash.jpg
+share-img: "https://samerde.github.io/assets/img/social/creating-an-it-systems-management-user-group-for-charlotte.jpg"
 tags: [User Group, Community]
 categories: [User Group, Community]
 author: Sam Erde
@@ -16,19 +16,15 @@ As IT professionals, we thrive on learning new things, tackling challenges, and 
 
 Since moving to the Charlotte area, I've been searching for an active user group focused on these interests. I haven't found one yet, so why not start one? Building a community takes a community, which is why I'm sharing this request:
 
-<center>
-
-{: .box-success}
-Will you help me organize and get a Charlotte</br>Systems Management User Group running? :pray:
-
-</center>
+{: .box-note}
+**Will you help me organize and get a Charlotte Systems Management User Group running?** :pray:
 
 ## Vision
 
 To get things started, here is the initial vision that I would love your feedback on:
 
 {: .box-note}
-The core purpose of the Charlotte Systems Management User Group is to foster growth and connection as an IT community. < /br> The primary technical focus areas are automation, cybersecurity, hybrid cloud, infrastructure, PowerShell, and the Microsoft 365 ecosystem (but is not exclusively limited to these). Other core topics that are fundamental to the identity of this community are career development, soft skills, mental health and wellness, and family.
+**The core purpose of the Charlotte Systems Management User Group is to foster growth and connection as an IT community.** The primary technical focus areas are automation, cybersecurity, hybrid cloud, infrastructure, PowerShell, and the Microsoft 365 ecosystem (but is not exclusively limited to these). Other core topics that are fundamental to the identity of this community are career development, soft skills, mental health and wellness, and family.
 
 ## Who is this group for?
 
@@ -64,3 +60,7 @@ Are you interested in joining or helping? I would love to continue the conversat
 Cheers!
 
 Sam
+
+---
+
+Photo by <a href="https://unsplash.com/@reddfrancisco?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Redd Francisco</a> on <a href="https://unsplash.com/photos/people-sitting-on-chair-5U_28ojjgms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
