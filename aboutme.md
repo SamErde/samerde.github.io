@@ -19,7 +19,7 @@ I like Visio diagrams and lists, so here is a list of some things I enjoy workin
 - IT Infrastructure
 - process improvement
 - standardizing and automating work
-- coffee, espresso, and coffee
+- coffee / espresso
 - puns, dad jokes, and memes
 
 Cybersecurity is in the DNA of this entire list, so I identify closely with a lot of friends in the infosec/cybersecurity community, even though I've always held systems/infrastructure roles. You have all taught me more than I ever would have learned alone!
@@ -31,7 +31,6 @@ When I'm not working, I enjoy:
 - basketball
 - disc golf
 - the ocean
-- puns, dad jokes, and memes
 - coffee
 
 I also love just about any kind of music. The classic IT response still applies to the question of which is my favorite genre. ("It depends.") Want to swap playlists? Let me know!
