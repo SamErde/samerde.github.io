@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Using MAR as a Secure Repository"
-subtitle: A trusted and vetted source for PowerShell modules, packages, and frameworks.
-date:   2025-06-21 17:00:00 -0400
+title:  "Using the Microsoft Artifact Registry (MAR) with PowerShell"
+subtitle: A trusted and secure source for PowerShell modules, packages, and other application components.
+date:   2025-06-20 17:00:00 -0400
 author: Sam Erde
 categories: [PowerShell]
 tags: [PowerShell, Automation, Scripting]
