@@ -11,3 +11,7 @@ ehthumbs.db
 Gemfile.lock
 
 beautiful-jekyll-theme-*.gem
+
+
+#Ignore vscode AI rules
+.github\copilot-instructions.md
