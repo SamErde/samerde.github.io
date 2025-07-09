@@ -2,7 +2,7 @@
 layout: post
 title: Installing PowerShell with the dotnet Tool
 subtitle: The ins and outs of using .NET to install PowerShell without local admin rights.
-date:   2025-07-09 08:00:00 -0500
+date:   2025-07-09 07:00:00 -0500
 categories: [PowerShell]
 tags: [PowerShell, .NET]
 author: Sam Erde
