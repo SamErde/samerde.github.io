@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Installing PowerShell with the dotnet Tool
-subtitle: Using .NET to install a PowerShell LTS or STS version without local admin rights.
+title: Installing PowerShell with the .NET Tool
+subtitle: Using dotnet to install a PowerShell LTS or STS version without local admin rights.
 date:   2025-07-09 07:00:00 -0500
 categories: [PowerShell]
 tags: [PowerShell, .NET]
