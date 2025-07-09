@@ -6,8 +6,7 @@ date:   2024-09-14 09:00:00 -0400
 author: Sam Erde
 categories: powershell
 tags: [powershell automation scripting]
-author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 cover-img: /assets/img/banners/_____.jpg
 thumbnail-img: /assets/img/thumbnails/_____.jpg
 share-img: "https://samerde.github.io/assets/img/social/_____.png"
