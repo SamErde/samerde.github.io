@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing PowerShell with the dotnet Tool
-subtitle: The ins and outs of using .NET to install PowerShell without local admin rights.
+subtitle: Using .NET to install a PowerShell LTS or STS version without local admin rights.
 date:   2025-07-09 07:00:00 -0500
 categories: [PowerShell]
 tags: [PowerShell, .NET]
@@ -108,13 +108,13 @@ dotnet tool install --global PowerShell --version $LTSVersion
 
 As a alternative, we can also get the LTS version number from the `metadata.json` file in the PowerShell repository: `(Invoke-RestMethod -Uri 'https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/metadata.json').LTSReleaseTag.Replace('v','')`.
 
-Each of these two URIs that I queried provide some details about PowerShell releases, as you can see in this screenshot:
+Both of these two URIs that I queried provide some details about PowerShell releases, as you can see in this screenshot:
 ![PowerShell in Windows Terminal showing the output of Invoke-RestMethod getting two PowerShell release info URIs. ](/assets/img/content/PowerShell-LTS-Version-Release-Commands.png)
 
 You should now have a fresh installation of PowerShell as a .NET tool on either the LTS or STS release.
 
 {: .box-note}
-This setup is completely independent of any versions of .NET or PowerShell that you may have installed on your system using an MSI, WinGet, or the Microsoft Store.
+This setup is completely independent of any versions of .NET and PowerShell that you already have installed on your system from an MSI, WinGet, or the Microsoft Store.
 
 ## Limitations
 
@@ -123,7 +123,7 @@ PowerShell as a .NET tool is easy to setup, but it does have some limitations.
 - Updates must be managed via `dotnet tool update` instead of WinGet, Windows Updates, or the Microsoft Store.
 - PowerShell remoting and WinRM might be unreliable or unsupported.
 - Base PowerShell modules may not be available or may have reduced functionality due to missing dependencies.
-- Modules such as Microsoft.Graph may fail due to dependencies on the full PowerShell host.
+- Modules such as **Microsoft.Graph** may fail due to dependencies on the full PowerShell host.
 - GUI-based modules that rely on Windows Forms or WPF won't work.
 
 ## Closing Thoughts
