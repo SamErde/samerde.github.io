@@ -3,10 +3,10 @@
 ############################
 
 # Name of website
-title: "Day 3 Bits"
+title: Day 3 Bits
 
 # Your name to show in the footer
-author: "Sam Erde"
+author: Sam Erde
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -205,8 +205,8 @@ gtag: "G-WSWT0E3F1K"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below
 # See more details about giscus and each of the following parameters at https://giscus.app
-#giscus:
-#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+giscus:
+  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
   repository: "samerde/samerde.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
   repository-id: "R_kgDOK3A-Qg" # ID of your repository, retrieve this info from https://giscus.app
   category: "Announcements" # Category name of your GitHub Discussion posts
