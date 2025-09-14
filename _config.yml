@@ -207,14 +207,14 @@ gtag: "G-WSWT0E3F1K"
 # See more details about giscus and each of the following parameters at https://giscus.app
 #giscus:
 #  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
-#  category: Announcements # Category name of your GitHub Discussion posts
-#  category-id: # ID of your category, retrieve this info from https://giscus.app
-#  mapping: pathname
-#  reactions-enabled: 1
-#  emit-metadata: 0
-#  theme: light
+  repository: "samerde/samerde.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository-id: "R_kgDOK3A-Qg" # ID of your repository, retrieve this info from https://giscus.app
+  category: "Announcements" # Category name of your GitHub Discussion posts
+  category-id: "DIC_kwDOK3A-Qs4CvalR" # ID of your category, retrieve this info from https://giscus.app
+  mapping: "title"
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: "preferred_color_scheme"
 
 ################
 # --- Misc --- #
