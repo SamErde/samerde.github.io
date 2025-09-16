@@ -1,6 +1,6 @@
-############################
-# --- Required options --- #
-############################
+# --- Site URL and Base URL --- #
+url: "https://day3bits.com" # Primary site URL (use https)
+baseurl: "" # Leave blank for root, or set to "/repo-name" for project pages
 
 # Name of website
 title: Day 3 Bits
@@ -18,6 +18,7 @@ navbar-links:
   PowerShell Modules:
     - PSPreworkout: "https://day3bits.com/PSPreworkout"
     - TheCleaners: "https://day3bits.com/TheCleaners"
+  Tags: "tags"
 
 ################
 # --- Logo --- #
@@ -43,7 +44,7 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "sam@day3bits.com"
+  # email: "sam@day3bits.com"
   rss: true # remove this line if you don't want to show an RSS link at the bottom
   github: SamErde
   twitter: SamErde
@@ -58,7 +59,7 @@ social-network-links:
   #  spotify: SamErde
   #  calendly: SamErde
   #  mastodon: instance.url/@username
-  bluesky: sam.day3bits.com
+  bluesky: samerde.day3bits.com
 #  ORCID: your ORCID ID
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  hackerrank: SamErde
@@ -75,7 +76,7 @@ rss-description: Notes about enterprise IT with a focus on automation, design, s
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
@@ -155,6 +156,13 @@ footer-hover-col: "#0085A1"
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
 gtag: "G-WSWT0E3F1K"
 
+# --- Best Practice Settings --- #
+future: false # Do not publish posts dated in the future
+unpublished: false # Do not publish posts marked as unpublished
+lsi: false # Disable Latent Semantic Indexing (related posts)
+strict_front_matter: true # Catch YAML errors in front matter
+markdown_ext: "md,markdown" # Recognize both .md and .markdown files
+
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
 
@@ -227,10 +235,12 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 #################################################################################
 
+
 # Output options (more information on Jekyll's site)
 timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
+# Explicit permalink style for clean URLs
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
@@ -263,6 +273,8 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
-  # - jemoji
+  - jekyll-paginate
+  - jekyll-redirect-from
