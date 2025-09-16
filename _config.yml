@@ -18,6 +18,7 @@ navbar-links:
   PowerShell Modules:
     - PSPreworkout: "https://day3bits.com/PSPreworkout"
     - TheCleaners: "https://day3bits.com/TheCleaners"
+  tags: "tags"
 
 ################
 # --- Logo --- #
@@ -58,7 +59,7 @@ social-network-links:
   #  spotify: SamErde
   #  calendly: SamErde
   #  mastodon: instance.url/@username
-  bluesky: sam.day3bits.com
+  bluesky: samerde.day3bits.com
 #  ORCID: your ORCID ID
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  hackerrank: SamErde
@@ -75,7 +76,7 @@ rss-description: Notes about enterprise IT with a focus on automation, design, s
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
@@ -263,6 +264,8 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
-  # - jemoji
+  - jekyll-paginate
+  - jekyll-redirect-from
