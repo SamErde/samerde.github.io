@@ -5,7 +5,7 @@ subtitle: How to deprecate a parameter in your PowerShell functions without brea
 date:   2025-02-17 07:00:00 -0400
 author: Sam Erde
 categories: [PowerShell]
-tags: [PowerShell, Automation, Scripting]
+tags: [PowerShell, Scripting]
 author: Sam Erde
 gh-repo: samerde/powershell
 cover-img: /assets/img/banners/jadon-kelly-zCnOv_jlbiw-unsplash-cropped.jpg

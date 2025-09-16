@@ -5,7 +5,7 @@ subtitle: A trusted and secure source for PowerShell modules, packages, and othe
 date:   2025-06-20 17:00:00 -0400
 author: Sam Erde
 categories: [PowerShell]
-tags: [PowerShell, Automation, Scripting]
+tags: [PowerShell, Scripting]
 author: Sam Erde
 gh-repo: samerde/powershell
 comments: true

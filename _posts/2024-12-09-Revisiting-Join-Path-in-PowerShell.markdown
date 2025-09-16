@@ -5,7 +5,7 @@ subtitle: Tips for using Join-Path in backwards-compatible and cross-platform Po
 date:   2024-12-09 06:45:00 -0400
 author: Sam Erde
 categories: [PowerShell]
-tags: [PowerShell, Automation, Scripting, .NET]
+tags: [PowerShell, Scripting, .NET]
 author: Sam Erde
 gh-repo: samerde/powershell
 cover-img: /assets/img/banners/jens-lelie-paths-u0vgcIOQG08-medium.jpg
