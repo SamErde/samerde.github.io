@@ -8,6 +8,7 @@ categories: [PowerShell]
 tags: [PowerShell, Automation, Scripting]
 author: Sam Erde
 gh-repo: samerde/powershell
+comments: true
 ---
 <!-- markdownlint-disable no-inline-html -->
 

@@ -10,6 +10,7 @@ tags: [Microsoft 365, M365, Cloud]
 categories: [Microsoft 365]
 author: Sam Erde
 gh-repo: samerde/powershell
+comments: true
 ---
 
 Welcome back! Here's a quick hit that falls into the "make notes and share them" category.

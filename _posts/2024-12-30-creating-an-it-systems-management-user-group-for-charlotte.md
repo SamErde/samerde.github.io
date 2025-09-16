@@ -10,6 +10,7 @@ tags: [User Group, Community]
 categories: [User Group, Community]
 author: Sam Erde
 gh-repo: samerde/powershell
+comments: true
 ---
 
 As IT professionals, we thrive on learning new things, tackling challenges, and growing our skills. While this is work inherently satisfying, we can only find real meaning in our work when we understand why we do it, when we are able to contribute value to the community, and when we take care of ourselves. These ideas drive my passion to keep growing and to connect with others who feel the same. Plus, as you may have guessed, I love geeking out about PowerShell, Microsoft 365, Windows Server, and securing all the things!

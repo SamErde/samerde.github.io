@@ -11,6 +11,7 @@ gh-repo: samerde/powershell
 cover-img: /assets/img/banners/samu-lopez-T6u10VL2kjo-unsplash.jpg
 thumbnail-img: /assets/img/thumbnails/samu-lopez-T6u10VL2kjo-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/Removing the Az and Microsoft.Graph PowerShell Modules to Save Time.png"
+comments: true
 ---
 
 The Microsoft Graph SDK v2.23.0 was released today, and with it, the updated Microsoft Graph PowerShell module. You can use `Update-Module` or `Update-PSResource` to update this module, or you can try out my new [PSPReworkout](https://day3bits.com/PSPreworkout) module's `Update-AllTheThings` function.

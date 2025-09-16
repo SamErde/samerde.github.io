@@ -7,6 +7,7 @@ categories: [PowerShell]
 tags: [PowerShell, .NET]
 author: Sam Erde
 gh-repo: samerde/samerde.github.io
+comments: true
 ---
 
 There are a surprising number of ways that you can install PowerShell on a system. Today we'll look at how to install it as a ".NET tool." _**This approach is not necessary or ideal for everyday use**_, but it does have some valid use cases and conveniently does not require local admin rights.

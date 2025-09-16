@@ -11,6 +11,7 @@ gh-repo: samerde/powershell
 cover-img: /assets/img/banners/jadon-kelly-zCnOv_jlbiw-unsplash-cropped.jpg
 thumbnail-img: /assets/img/thumbnails/jadon-kelly-zCnOv_jlbiw-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/Using-Obsolete-Parameters-In-PowerShell.png"
+comments: true
 ---
 <!-- markdownlint-disable no-inline-html -->
 

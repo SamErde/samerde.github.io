@@ -11,6 +11,7 @@ gh-repo: samerde/powershell
 cover-img: /assets/img/banners/jens-lelie-paths-u0vgcIOQG08-medium.jpg
 thumbnail-img: /assets/img/thumbnails/jens-lelie-paths-u0vgcIOQG08-th.jpg
 share-img: "https://samerde.github.io/assets/img/social/Revisiting Join-Path in PowerShell.png"
+comments: true
 ---
 
 Many people have already written about the benefits of using PowerShell's `Join-Path` cmdlet. Instead of repeating the details, let's review some of the less common tricks, and then look at the differences between Windows PowerShell 5.1 and newer versions of PowerShell.
