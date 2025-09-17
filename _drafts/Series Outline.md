@@ -43,9 +43,9 @@ Once I start working on these projects, the full path to some repository files c
 1. Create a drive letter that maps to the `Code` path, or even create separate drive letters for the `Personal` and `Work` paths.
    A. Windows:
       - Use the `subst` command, which can be added to your startup or profile and is usable in Windows Explorer or the shell.
-      - Use the **[PSProvider]** cmdlet, which has the downside of only working in PowerShell.
+      - Use the related **PSProvider** cmdlet (I forget the name right now), which has the downside of only working in PowerShell.
    B. Non-Windows:
-      -. Create an alias.
+      - Create an alias.
    C. Honorable mention for all platforms: Create a junction point.
 2. Use a custom PowerShell prompt that replaces the value of `$HOME` in the `$PWD` segment of your prompt with a `~`.
 
