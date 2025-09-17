@@ -1,15 +1,15 @@
 ---
 layout: page
-<<<<<<< HEAD
-title: Tag Index
+title: 'Tag Index'
 subtitle: 'Browse posts by topic and tag'
 description: 'Explore all blog posts organized by topics and tags on Sam Erde\'s Day 3 Bits blog.'
-=======
-title: 'Tag Index'
->>>>>>> parent of 23fe6b2 (Enhance tag index page: add introductory text, improve tag navigation, and update post entry structure)
 ---
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+<div class="tags-intro">
+    <p>Browse {{ site.posts.size }} posts across {{ site.tags.size }} different topics. Click on any tag below to jump to that section.</p>
+</div>
 
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
@@ -18,25 +18,38 @@ title: 'Tag Index'
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
-{%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
-{%- endfor -%}
+<nav class="tags-navigation" role="navigation" aria-label="Tag navigation">
+    {%- for tag in tags_list -%}
+        <a href="#{{- tag | slugify -}}" class="btn btn-primary tag-btn" role="button" aria-describedby="{{- tag | slugify -}}-count">
+            <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;<span id="{{- tag | slugify -}}-count" class="badge">({{site.tags[tag].size}})</span>
+        </a>
+    {%- endfor -%}
+</nav>
 
-<div id="full-tags-list">
+<main id="full-tags-list" role="main" aria-label="Posts organized by tags">
 {%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
-    </h2>
-    <div class="post-list">
-        {%- for post in site.tags[tag] -%}
-            <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
-                </div>
-            </div>
-        {%- endfor -%}
-    </div>
+    <section class="tag-section" aria-labelledby="{{- tag | slugify -}}-heading">
+        <h2 id="{{- tag | slugify -}}-heading" class="linked-section">
+            <i class="fas fa-tag" aria-hidden="true"></i>
+            &nbsp;{{- tag -}}&nbsp;<span class="tag-count">({{site.tags[tag].size}} post{%- if site.tags[tag].size != 1 -%}s{%- endif -%})</span>
+        </h2>
+        <div class="post-list" role="list">
+            {%- for post in site.tags[tag] -%}
+                <article class="tag-entry" role="listitem">
+                    <h3 class="post-title">
+                        <a href="{{ post.url | relative_url }}" aria-describedby="{{- post.title | slugify -}}-date">{{- post.title | strip_html -}}</a>
+                    </h3>
+                    <div class="entry-date" id="{{- post.title | slugify -}}-date">
+                        <time datetime="{{- post.date | date_to_xmlschema -}}" aria-label="Published on {{- post.date | date: date_format -}}">
+                            {{- post.date | date: date_format -}}
+                        </time>
+                    </div>
+                    {%- if post.subtitle -%}
+                        <p class="post-subtitle">{{ post.subtitle }}</p>
+                    {%- endif -%}
+                </article>
+            {%- endfor -%}
+        </div>
+    </section>
 {%- endfor -%}
-</div>
+</main>
