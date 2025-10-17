@@ -1,6 +1,6 @@
 # Setting up Your Tools and Environment for Work and Personal Projects
 
-A series of blog posts that cover steps to optimize your coding environment with separation of your work and personal projects. Look for opportunities to improve or to make this easier using GitKraken Desktop and `gk` CLI for the Ambassador Program.
+A series of blog posts that describe steps to optimize your coding environment with clean separation of your work and personal projects. Look for opportunities to improve or to make this easier using GitKraken Desktop and `gk` CLI for the Ambassador Program.
 
 ## Part 1: Intro Series and Folder Structure
 
