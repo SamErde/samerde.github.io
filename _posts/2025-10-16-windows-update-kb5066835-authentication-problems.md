@@ -2,8 +2,8 @@
 layout: post
 title: Issues with Windows Update KB5066835 Cause Problems with Authentication Flows
 subtitle: Security update breaks localhost listeners that are used to connect to Microsoft 365 services with PowerShell and affect other 3rd party applications such as Cisco Duo.
-date:   2025-10-16 22:00:00 -0500
-tags: [Issue, PowerShell, Windows]
+date:   2025-10-16 21:00:00 -0500
+tags: [Issue, PowerShell, Windows, Microsoft-Teams]
 categories: [Windows]
 author: Sam Erde
 gh-repo: samerde/powershell
