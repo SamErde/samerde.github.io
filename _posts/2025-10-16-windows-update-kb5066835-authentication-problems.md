@@ -52,7 +52,7 @@ The timing of this felt like it may have been patch related, but I do frequently
 
 [![@bdam555 on X: "PSA: have heard multiple reports that this month's CS (ex. KB5066835) break/alter the hocalhost loopback in ways that has broken a fairly wide swath of software](/assets/img/content/twitter-KB5066835.png)](https://x.com/bdam555/status/1978935615807783322)
 
-That post and the Cisco Duo article 9527 that Susan Brady shared ([Why is Duo Desktop not detected on my Windows device after installing updates to Windows 11?](https://help.duo.com/s/article/9527)) was the confirmation that I needed.
+That post and the Cisco Duo article 9527 that Susan Brady shared ([Why is Duo Desktop not detected on my Windows device after installing updates to Windows 11?](https://help.duo.com/s/article/9527)) was the confirmation that I needed. (Additional information: [#2815434 on askwoody.com](https://www.askwoody.com/forums/topic/october-2025-updates-released/#post-2815434).)
 
 The [October 14, 2025 KB5066835 update](https://support.microsoft.com/en-us/topic/october-14-2025-kb5066835-os-builds-26200-6899-and-26100-6899-1db237d8-9f3b-4218-9515-3e0a32729685) is definitely breaking apps and authentication processes that utilize the localhost loopback listener. I removed the two updates that the Cisco Duo article mentioned, rebooted, and the issue immediately went away.
 
