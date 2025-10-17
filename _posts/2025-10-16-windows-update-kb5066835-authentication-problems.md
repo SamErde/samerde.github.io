@@ -62,7 +62,7 @@ I haven't found a publicly visible statement from Microsoft yet, but this explan
 
 Here's one way to resolve the issue until a new security patch or hotfix is released:
 
-## Use WUSA to Remove the Patches
+### Use WUSA to Remove the Patches
 
 ```powershell
 # Remove specific Windows Updates
@@ -81,7 +81,7 @@ wusa /uninstall kb:5066835
 wusa /uninstall kb:5065789
 ```
 
-## Use DISM to Remove the Patches
+### Use DISM to Remove the Patches
 
 ```powershell
 # Remove updates using DISM
@@ -93,7 +93,7 @@ foreach ($KB in $KBs) {
 }
 ```
 
-## Use the PSWindowsUpdate PowerShell Module
+### Use the PSWindowsUpdate PowerShell Module
 
 I used the PSWindowsUpdate PowerShell module to remove the patches:
 
