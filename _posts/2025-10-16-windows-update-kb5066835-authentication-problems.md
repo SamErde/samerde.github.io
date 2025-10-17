@@ -56,7 +56,11 @@ That post and the Cisco Duo article 9527 that Susan Brady shared ([Why is Duo De
 
 The [October 14, 2025 KB5066835 update](https://support.microsoft.com/en-us/topic/october-14-2025-kb5066835-os-builds-26200-6899-and-26100-6899-1db237d8-9f3b-4218-9515-3e0a32729685) is definitely breaking apps and authentication processes that utilize the localhost loopback listener. I removed the two updates that the Cisco Duo article mentioned, rebooted, and the issue immediately went away.
 
-Here's how to resolve the issue until a new security patch or hotfix is released:
+I haven't found a publicly visible statement from Microsoft yet, but this explanation is included in the Windows release health message center:
+
+> Following installation of updates releases on or after October 14 (the Originating KBs listed above), server-side applications that rely on HTTP.sys may experience issues with incoming connections. As a result, IIS websites might fail to load, displaying a message such as "Connection reset – error (ERR_CONNECTION_RESET)", or similar error. This includes websites hosted on http://localhost/, and other IIS connections.
+
+Here's one way to resolve the issue until a new security patch or hotfix is released:
 
 ## Use WUSA to Remove the Patches
 
