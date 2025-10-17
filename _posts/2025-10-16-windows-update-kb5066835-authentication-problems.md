@@ -10,7 +10,7 @@ gh-repo: samerde/powershell
 comments: true
 ---
 
-This Wednesday, October 15th, I encountered an unpleasant surprise when I began connecting to Microsoft 365 services to test the latest prerelease version of Maester.
+This Wednesday, October 15th, I encountered an unpleasant surprise when I began connecting to Microsoft 365 services to test the latest prerelease version of Maester: I could not connect to Microsoft Teams using PowerShell!
 
 ```powershell
 Import-Module Maester
