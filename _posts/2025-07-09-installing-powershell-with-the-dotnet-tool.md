@@ -38,6 +38,7 @@ Remove-Item -Path $DownloadPath -Confirm:$false
 The .NET tool includes the latest LTS (long term support) release of .NET by default. PowerShell provides both LTS and STS (current stable) releases that are aligned with .NET's LTS and STS releases. If you want to run the latest version of PowerShell as a .NET tool, you have to ensure that the .NET tool is installed using the `Channel 'STS'` parameter.
 
 Install PowerShell using the `dotnet` tool:
+
 ```powershell
 dotnet tool install --global PowerShell
 ```

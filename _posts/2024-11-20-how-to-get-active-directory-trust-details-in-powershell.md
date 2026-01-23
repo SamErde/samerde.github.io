@@ -9,7 +9,7 @@ date:   2024-11-20 12:00:00 -0500
 tags: [Active Directory, PowerShell, .NET]
 categories: [PowerShell]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 comments: true
 ---
 

@@ -6,7 +6,7 @@ date:   2025-10-16 21:00:00 -0500
 tags: [Issue, PowerShell, Windows, Microsoft-Teams]
 categories: [Windows]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 comments: true
 ---
 

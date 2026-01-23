@@ -7,7 +7,7 @@ author: Sam Erde
 categories: [PowerShell]
 tags: [PowerShell, Scripting, Azure, Microsoft Graph]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 cover-img: /assets/img/banners/samu-lopez-T6u10VL2kjo-unsplash.jpg
 thumbnail-img: /assets/img/thumbnails/samu-lopez-T6u10VL2kjo-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/Removing the Az and Microsoft.Graph PowerShell Modules to Save Time.png"
@@ -33,6 +33,7 @@ Install-Module -Name Microsoft.Graph
 ```
 
 When we use these commands, we don't just install one module or two modules. As of this writing:
+
 - The [Az module](https://github.com/Azure/azure-powershell/blob/main/documentation/azure-powershell-modules.md) includes 171 service submodules.
 - The [Microsoft.Graph PowerShell module](https://github.com/microsoftgraph/msgraph-sdk-powershell/wiki/MS-Graph-PowerShell-Modules) includes 38 service submodules.
 

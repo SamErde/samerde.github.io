@@ -7,7 +7,7 @@ author: Sam Erde
 categories: [PowerShell]
 tags: [PowerShell, Scripting]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 cover-img: /assets/img/banners/jadon-kelly-zCnOv_jlbiw-unsplash-cropped.jpg
 thumbnail-img: /assets/img/thumbnails/jadon-kelly-zCnOv_jlbiw-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/Using-Obsolete-Parameters-In-PowerShell.png"

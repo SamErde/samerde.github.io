@@ -9,7 +9,7 @@ share-img: "https://samerde.github.io/assets/img/social/creating-an-it-systems-m
 tags: [User Group, Community]
 categories: [User Group, Community]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 comments: true
 ---
 

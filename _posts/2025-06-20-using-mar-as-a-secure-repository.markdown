@@ -7,7 +7,7 @@ author: Sam Erde
 categories: [PowerShell]
 tags: [PowerShell, Scripting]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 comments: true
 ---
 <!-- markdownlint-disable no-inline-html -->

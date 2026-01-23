@@ -7,7 +7,7 @@ author: Sam Erde
 categories: [PowerShell]
 tags: [PowerShell, Scripting, .NET]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 cover-img: /assets/img/banners/jens-lelie-paths-u0vgcIOQG08-medium.jpg
 thumbnail-img: /assets/img/thumbnails/jens-lelie-paths-u0vgcIOQG08-th.jpg
 share-img: "https://samerde.github.io/assets/img/social/Revisiting Join-Path in PowerShell.png"
@@ -29,15 +29,19 @@ Join-Path
 ```
 
 You may not have realized that it supports wildcards in the parent and child paths, and can return an array of strings that represent paths.
+
 ```powershell
 Join-Path -Path "$Home\AppData\Local*" -ChildPath "Microsoft*" -Resolve
 ```
+
 ![A screen shot of PowerShell in Windows Terminal running the command 'Join-Path -Path "$Home\AppData\Local*" -ChildPath "Microsoft*" -Resolve'.](https://samerde.github.io/assets/img/content/Join-Path-Wildcards.png)
 
 It can also accept multiple parent paths and return multiple resolved paths:
+
 ```powershell
 Join-Path -Path C:\, C:\Windows, $env:LOCALAPPDATA -ChildPath "Temp" -Resolve
 ```
+
 ![A screen shot of PowerShell in Windows Terminal running an example of Join-Path with multiple parent paths.](https://samerde.github.io/assets/img/content/Join-Path-Multiple-Parents.png)
 
 The difference between Windows PowerShell and PowerShell becomes apparent when you want to join more than one child path. PowerShell added the **AdditionalPath** parameter, which allows you to add virtually unlimited child paths like this:

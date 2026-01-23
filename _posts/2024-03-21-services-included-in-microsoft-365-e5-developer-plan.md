@@ -6,10 +6,10 @@ date:   2024-03-21 09:00:00 -0500
 cover-img: /assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 share-img: "https://samerde.github.io/assets/img/social/M365-E5-Developer-SKU.png"
-tags: [Microsoft 365, M365, Cloud]
+tags: [Microsoft 365, M365]
 categories: [Microsoft 365]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 comments: true
 ---
 
@@ -21,7 +21,7 @@ During the first quarter of 2024, Microsoft [announced some unfortunate changes 
 
 If you've ever visited that page, you know how hard it is to read! This seems like a great opportunity for a GitHub action to scrape and remodel the table. For now, here's a quick copy/paste of the friendly names for all service plans included with the DEVELOPERPACK_E5 SKU.
 
-```
+```text
 Avatars for Teams
 Avatars for Teams (additional)
 Azure Information Protection Premium P1

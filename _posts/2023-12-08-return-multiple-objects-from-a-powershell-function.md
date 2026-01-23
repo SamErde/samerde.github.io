@@ -9,7 +9,7 @@ share-img: "https://samerde.github.io/assets/img/social/Return-Multiple-Objects-
 tags: [PowerShell, PKI]
 categories: [PowerShell]
 author: Sam Erde
-gh-repo: samerde/powershell
+gh-repo: samerde/samerde.github.io
 comments: true
 ---
 
@@ -204,5 +204,3 @@ Peace.
 Sam
 
 Photo by <a href="https://unsplash.com/@aeschwarz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"  target="_blank">Adrian Schwarz</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-night-lights-XS7q-baZrmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
-
-++ctrl+alt+del++
