@@ -55,7 +55,7 @@ Radish
 
 The array names are gone, so if you want to reference a specific type of food from the results, you have to find a creative way to get it. What if you need to enumerate the TreeFruit array, and then enumerate the RootVegetable array later in a different function?
 
-We can try using imatch to find arrays that might contain words we know:
+We can try using `imatch` to find arrays that might contain words we know:
 
 ```powershell
 $TreeFruit = $Food -imatch "Apple"
