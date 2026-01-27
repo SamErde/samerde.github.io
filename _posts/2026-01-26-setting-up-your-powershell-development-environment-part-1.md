@@ -135,7 +135,7 @@ As an added befit, this may also provide a slightly better sense of privacy by n
 
 Finally, pin the location of your "Code" folder to the Quick Access list in Windows Explorer or favorites group in the Finder sidebar in macOS.
 
-![A screen shot of Windows Explorer with the pinned Code folder and subst drives.](assets/img/content/Windows-Explorer-With-Subst-Drives.png)
+![A screen shot of Windows Explorer with the pinned Code folder and subst drives.](/assets/img/content/Windows-Explorer-With-Subst-Drives.png)
 
 ## Next Steps
 
