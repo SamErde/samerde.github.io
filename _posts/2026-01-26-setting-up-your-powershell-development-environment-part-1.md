@@ -55,7 +55,7 @@ We'll start by creating a dedicated folder structure that keeps work projects se
 
 **Bonus Tip:** If you develop code on a Windows machine, using a Dev Drive can provide anywhere from 10-30% performance improvement. This would be a great place to start! See more information about Dev Drives at [aka.ms/devdrive](https://aka.ms/devdrive).
 
-### Step 1a: Choose Your Base Location
+### Step 1.1: Choose Your Base Location
 
 First, decide where to create your base code directory and what to call it. I chose to use `Code` under my home directory for several reasons:
 
@@ -67,7 +67,7 @@ First, decide where to create your base code directory and what to call it. I ch
     - We would end up mixing work and personal code in a synced OneDrive account
     - We want to avoid the potential for OneDrive sync issues (it happens!)
 
-### 2A: Create Work and Personal Subdirectories
+### Step 1.2: Create Work and Personal Subdirectories
 
 This is where the separation is created. Choose the directory names that work for you, but the important thing is to create subdirectories for your different contexts: a dedicated directory for personal or public projects and one dedicated to work projects.
 
@@ -117,7 +117,7 @@ C:\Users\SamErde\Code\
     └── SharedTools\
 ```
 
-### 2C: Shortening the Path
+### Step 1.3: Shortening the Path
 
 If you did not set up a dev drive, the file paths in this system can get quite long as projects grow (*especially* if you chose to put this in your OneDrive folder). That length can become tedious to work with and *sometimes* even cause problems once you get past 255 characters in a filepath. One way that you can create shorter paths is by using the `subst` command (or an alias in Linux) to shorten a deep directory path down to a single drive letter. You can do this for your "Code" folder or even even create separate drive letters for the `Work` and `Personal` folders. Chose the "path" (🥁😉) that works best for you!
 
