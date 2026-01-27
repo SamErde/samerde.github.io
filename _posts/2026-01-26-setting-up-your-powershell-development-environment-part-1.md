@@ -11,13 +11,9 @@ comments: true
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-Hey, friend! Have you ever accidentally committed code to GitHub with your work email address? Or pushed personal project code to your work repository? Or found yourself constantly switching between different settings and configurations depending on which project you're working on? 🤦‍♂️ I've been there. It's a pain.
+Hey, friend! Have you ever accidentally committed code to GitHub with your work email address? Pushed personal project code to your work repository? Or found yourself constantly switching between different settings and configurations for each project you open? 🤦‍♂️ I've been there, and yes, it's a pain.
 
-Let's start off by addressing the elephant in the room: many of you will rightly say the *proper* solution is to "never mix work and personal (or public) project development on the same machine." That's fair, but I will counter that there can be some legitimate crossover. In my work, I make frequent use of open-source tools and PowerShell modules that are maintained on public GitHub repositories. Using these tools so often creates many opportunities to find and fix bugs or add enhancements that my colleagues and I need. It's an awesome way to make my job easier, get better results for my customers, and give back to the community at the same time!
-
-That said, it *is* still critical to maintain separation between public, private, and corporate projects. In addition, each of these will often have different configuration needs when it comes to everything from Git to my IDE.
-
-This post is the first in a series that will share things I have learned over the years to make this challenge fairly seamless. I'll walk you through setting up a clean, organized PowerShell development environment that keeps your work and personal projects completely separated. We'll cover:
+This post is the first in a series that will share things I have learned over the years to efficiently solve these challenges. I'll walk you through setting up a clean, organized PowerShell development environment that keeps your work and personal projects completely separated. We'll cover:
 
 - **Part 1** (this post)
   - Creating a logical folder structure
@@ -44,7 +40,12 @@ Before we dive into the "how," let's quickly review the "why." What problems are
   - scope your search and navigation to only include related projects
   - reduce mental context switching
 
-Basically, **good organization isn't about being neat--it's about reducing cognitive load, being secure, and preventing mistakes.**
+{: .box-note}
+Many of you will rightly say the *proper* solution is to never mix work and personal (or public) project development on the same machine. That's fair. Still, I will counter that there can be some legitimate crossover. In my work, frequently use open-source tools and PowerShell modules. Regularly using these tools creates many opportunities to fix bugs or add enhancements that my colleagues and I need. It's an awesome way to make the job easier, get better results for our customers, and give back to the community at the same time!
+
+That said, it *is* still critical to maintain separation between public, private, and corporate projects. In addition, each of these will often have different configuration needs when it comes to Git to your IDE.
+
+Basically, **good organization isn't just about being neat -- it's about reducing cognitive load, being secure, and preventing mistakes.**
 
 As an added bonus, if you ever need to wipe your work machine or change jobs, having a clear separation makes that transition much smoother.
 
@@ -52,17 +53,19 @@ As an added bonus, if you ever need to wipe your work machine or change jobs, ha
 
 We'll start by creating a dedicated folder structure that keeps work projects separate from personal or public code.
 
-**Bonus Tip:** If you develop code on a Windows machine, there can be anywhere from 10-30% improvement in performance if you create a dev drive. See more information about this feature at [aka.ms/devdrive](https://aka.ms/devdrive).
+**Bonus Tip:** If you develop code on a Windows machine, using a Dev Drive can provide anywhere from 10-30% performance improvement. This would be a great place to start! See more information about Dev Drives at [aka.ms/devdrive](https://aka.ms/devdrive).
 
-### 1A: Choose Your Base Location
+### Step 1a: Choose Your Base Location
 
 First, decide where to create your base code directory and what to call it. I chose to use `Code` under my home directory for several reasons:
 
 - Whether I'm using Windows, Linux, or macOS, I can reference this path the same way: `~/Code` or `$HOME/Code`. Both will resolve properly on any platform.
-- I want to keep it out of the 'Documents' folder, which isn't consistent across platforms *and* can get caught up in OneDrive sync. We want to avoid OneDrive folders because:
-  - The path can get really long, which can create a poor experience *and* can eventually run into path length limits
-  - We would end up mixing work and personal code in a synced OneDrive account
-  - We want to avoid the potential for sync issues
+- I want to keep it out of the 'Documents' folder:
+  - 'Documents' isn't guaranteed to be consistent across platforms *and* can get caught up in OneDrive sync.
+  - We want to avoid OneDrive folders because:
+    - The path can get really long, which can create a poor experience *and* can eventually run into path length limits
+    - We would end up mixing work and personal code in a synced OneDrive account
+    - We want to avoid the potential for OneDrive sync issues (it happens!)
 
 ### 2A: Create Work and Personal Subdirectories
 
@@ -85,7 +88,7 @@ If you are a freelance worker or have multiple jobs, your base folder structure 
 └── CompanyName2
 ```
 
-With this structure in place, you *could* now automatically clone all of your GitHub projects into the `Personal` folder with the GitHub CLI if you want to. Just...be careful if you have a large amount!
+**Tip:** With this structure in place, you *could* now automatically clone all of your GitHub projects into the `Personal` folder with the GitHub CLI if you want to. Just...be careful if you have a large amount! The `gh` command below can also be filtered to skip any archived repositories.
 
 ```powershell
 # Authenticate with the GitHub CLI
@@ -118,9 +121,21 @@ C:\Users\SamErde\Code\
 
 If you did not set up a dev drive, the file paths in this system can get quite long as projects grow (*especially* if you chose to put this in your OneDrive folder). That length can become tedious to work with and *sometimes* even cause problems once you get past 255 characters in a filepath. One way that you can create shorter paths is by using the `subst` command (or an alias in Linux) to shorten a deep directory path down to a single drive letter. You can do this for your "Code" folder or even even create separate drive letters for the `Work` and `Personal` folders. Chose the "path" (🥁😉) that works best for you!
 
+Basic syntax: `subst [<drive_letter>:] [<path>]`
+
+Here are some examples for setting up drive letters:
+
+```powershell
+subst d: $HOME/Code
+subst p: $HOME/Code/Personal
+subst w: $HOME/Code/Work
+```
+
 As an added befit, this may also provide a slightly better sense of privacy by not revealing the full literal path if you ever share PowerShell screenshots or errors in a GitHub issue.
 
 Finally, pin the location of your "Code" folder to the Quick Access list in Windows Explorer or favorites group in the Finder sidebar in macOS.
+
+![A screen shot of Windows Explorer with the pinned Code folder and subst drives.](assets/img/content/Windows-Explorer-With-Subst-Drives.png)
 
 ## Next Steps
 
@@ -128,11 +143,9 @@ Now you have a clean folder structure that separates your work and personal proj
 
 In **Part 2**, we'll dive into how to create a git configuration that automatically uses relevant commit settings for any folder in this tree.
 
-## Your Turn
+---
 
-Do you already have a folder structure for organizing your projects? What works well for you? What frustrations have you run into? Drop a comment below--I'd love to hear about your setup!
-
-In the meantime, take 5 minutes to create this folder structure if you haven't already. Your future self will thank you. 🙏
+Do you already have a folder structure for organizing your projects? What works well for you? What frustrations have you run into? Drop a comment below--I'd love to hear about your setup! In the meantime, take 5 minutes to create this folder structure if you haven't already. Your future self will thank you. 🙏
 
 Happy coding! ☀️
 Sam
