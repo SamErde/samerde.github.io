@@ -6,6 +6,9 @@ date:   2026-01-26 18:00:00 -0500
 tags: [PowerShell, Development, Git, Productivity]
 categories: [PowerShell, Development Environment]
 author: Sam Erde
+cover-img: /assets/img/banners/yosuke-ota-GUcabuY3q80-unsplash.jpg
+thumbnail-img: /assets/img/thumbnails/yosuke-ota-GUcabuY3q80-unsplash-small.jpg
+share-img: "https://samerde.github.io/assets/img/social/Setting-Up-PowerShell-Development-Environment-Part-1.png"
 gh-repo: samerde/samerde.github.io
 comments: true
 ---
@@ -147,5 +150,7 @@ In **Part 2**, we'll dive into how to create a git configuration that automatica
 
 Do you already have a folder structure for organizing your projects? What works well for you? What frustrations have you run into? Drop a comment below--I'd love to hear about your setup! In the meantime, take 5 minutes to create this folder structure if you haven't already. Your future self will thank you. 🙏
 
-Happy coding! ☀️
+Happy coding! 🧑‍💻  
 Sam
+
+Photo by <a href="https://unsplash.com/@yosuke_ota?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yosuke Ota</a> on <a href="https://unsplash.com/photos/a-tray-with-food-and-drinks-on-it-GUcabuY3q80?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
