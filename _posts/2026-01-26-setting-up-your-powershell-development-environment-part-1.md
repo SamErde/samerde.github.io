@@ -88,10 +88,10 @@ If you are a freelance worker or have multiple jobs, your base folder structure 
 └── CompanyName2
 ```
 
-**Tip:** With this structure in place, you *could* now automatically clone all of your GitHub projects into the `Personal` folder with the GitHub CLI if you want to. Just...be careful if you have a large amount! The `gh` command below can also be filtered to skip any archived repositories.
+**Optional:** With this structure in place, you *can* now automatically clone all of your GitHub projects into the `Personal` folder with the GitHub CLI if you want to. This is optional! Just...be careful if you have a large of repository content! (The `gh` command below can also be filtered to skip any archived repositories.)
 
 ```powershell
-# Authenticate with the GitHub CLI
+# An OPTIONAL script that clones all of your GitHub repos using the GitHub CLI.
 gh auth login
 cd ~/Code/Personal
 $Repositories = gh repo list --limit 1000 --json name,nameWithOwner,url | ConvertFrom-Json
