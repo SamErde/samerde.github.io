@@ -18,23 +18,23 @@ comments: true
 
 You can often learn interesting things by looking at release notes. While reading the "what's changed" list for the msgraph-sdk-powershell project (Microsoft Graph PowerShell module), three things stood out:
 
-### Re-establish Separate Auth Paths for WAM Enabled/Disabled by @ramsessanchez in [#3542](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)
+> #### Re-establish Separate Auth Paths for WAM Enabled/Disabled by @ramsessanchez in [#3542](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)
+>
+> Can we hope for continued improvements with WAM support in PowerShell?
+>
+> #### fix: update msal dependencies by @gavinbarron in [#3548](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)
+>
+> Of interest to me due to my work on mitigating MSAL version conflicts for [Maester](https://maester.dev) and the [DLL Pickle](https://github.com/samerde/dllpickle) module.
+>
+> #### Add BleuCloud, DelosCloud, and GovSGCloud sovereign cloud environments, remove deprecated Germany cloud by @Copilot in [#3523](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3523)
+>
+> Well, what are these new names???
 
-Can we hope for continued improvements with WAM support in PowerShell?
+### Looking Deeper
 
-### fix: update msal dependencies by @gavinbarron in [#3548](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)
+#### Sovereign Cloud Changes
 
-Of interest to me due to my work on mitigating MSAL version conflicts for [Maester](https://maester.dev) and the [DLL Pickle](https://github.com/samerde/dllpickle) module.
-
-### Add BleuCloud, DelosCloud, and GovSGCloud sovereign cloud environments, remove deprecated Germany cloud by @Copilot in [#3523](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3523)
-
-Well, what are these new names???
-
-## Looking Deeper
-
-### Sovereign Cloud Changes
-
-The EU has been keeping Microsoft busy, and in #3523, we see their latest developments spinning up thanks to this GitHub Copilot prompt:
+The EU has been keeping Microsoft busy, and in #3523, we see their latest developments spinning up, thanks to this GitHub Copilot prompt:
 
 > Microsoft is building two new fully instanced national partner clouds in France an Germany. To support customers and ISV of these clouds to easily connect to these clouds the built-in environments should be updated to include the correct endpoints. In addition the current built-in environment for Germany (Blackforest) is not longer available and should be removed to avoid confusion for customers of the new national partner cloud in Germany which is owned and operated by Delos Cloud.
 
@@ -50,7 +50,7 @@ Subtasks in this plan include cleanup of deprecated Microsoft-managed environmen
 
 Customers of national cloud partners will be able to add user-defined environments for these new partner clouds using the following commands:
 
-#### France
+##### France
 
 ```powershell
 Add-MgEnvironment  -Name BleuCloud
@@ -58,7 +58,7 @@ Add-MgEnvironment  -Name BleuCloud
 -GraphEndpoint <https://graph.svc.sovcloud.fr/>
 ```
 
-#### Germany
+##### Germany
 
 ```powershell
 Add-MgEnvironment  -Name DelosCloud
@@ -66,13 +66,15 @@ Add-MgEnvironment  -Name DelosCloud
 -GraphEndpoint <https://graph.svc.sovcloud.de/>
 ```
 
-#### GovSGCloud
+##### GovSGCloud
 
 ```powershell
 Add-MgEnvironment  -Name GovSGCloud
 -AzureAdEndpoint <https://login.sovcloud-identity.sg/> `
 -GraphEndpoint <https://graph.svc.sovcloud.sg/>
 ```
+
+##### Output
 
 ```output
 Name        AzureADEndpoint                    GraphEndpoint                           Type
@@ -84,12 +86,13 @@ Global          https://login.microsoftonline.com  https://graph.microsoft.com  
 BleuCloud       https://login.sovcloud-identity.fr https://graph.svc.sovcloud.fr           Built-in
 DelosCloud      https://login.sovcloud-identity.de https://graph.svc.sovcloud.de           Built-in
 ```
+
 ---
 
 ## Questions
 
 What I don't see in the PR is any work on the `Singapore` environment that Copilot references (is this a hallucination or discovered fact?) or an explanation of what `GovSGCloud` is reserved for. Let me know if you have any insights into these developments or if you are waiting to migrate workloads to them!
 
-Have a great day, friends!
+Keep learning and discovering! Have a great day, friends!
 
 Sam
