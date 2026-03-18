@@ -18,23 +18,20 @@ comments: true
 
 You can often learn interesting things by looking at release notes. While reading the "what's changed" list for the msgraph-sdk-powershell project (Microsoft Graph PowerShell module), three things stood out:
 
-> #### Re-establish Separate Auth Paths for WAM Enabled/Disabled by @ramsessanchez in [#3542](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)
->
+> **Re-establish Separate Auth Paths for WAM Enabled/Disabled by @ramsessanchez in [#3542](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)**
 > Can we hope for continued improvements with WAM support in PowerShell?
 >
-> #### fix: update msal dependencies by @gavinbarron in [#3548](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)
->
+> **fix: update msal dependencies by @gavinbarron in [#3548](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)**
 > Of interest to me due to my work on mitigating MSAL version conflicts for [Maester](https://maester.dev) and the [DLL Pickle](https://github.com/samerde/dllpickle) module.
 >
-> #### Add BleuCloud, DelosCloud, and GovSGCloud sovereign cloud environments, remove deprecated Germany cloud by @Copilot in [#3523](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3523)
->
-> Well, what are these new names???
+> **Add BleuCloud, DelosCloud, and GovSGCloud sovereign cloud environments, remove deprecated Germany cloud by @Copilot in [#3523](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3523)**
+> What are these new names???
 
 ### Looking Deeper
 
 #### Sovereign Cloud Changes
 
-The EU has been keeping Microsoft busy, and in #3523, we see their latest developments spinning up, thanks to this GitHub Copilot prompt:
+The EU has been keeping Microsoft busy, and in PR #3523, we see their latest developments spinning up, thanks to this GitHub Copilot prompt:
 
 > Microsoft is building two new fully instanced national partner clouds in France an Germany. To support customers and ISV of these clouds to easily connect to these clouds the built-in environments should be updated to include the correct endpoints. In addition the current built-in environment for Germany (Blackforest) is not longer available and should be removed to avoid confusion for customers of the new national partner cloud in Germany which is owned and operated by Delos Cloud.
 
@@ -50,7 +47,7 @@ Subtasks in this plan include cleanup of deprecated Microsoft-managed environmen
 
 Customers of national cloud partners will be able to add user-defined environments for these new partner clouds using the following commands:
 
-##### France
+**France**
 
 ```powershell
 Add-MgEnvironment  -Name BleuCloud
@@ -58,7 +55,7 @@ Add-MgEnvironment  -Name BleuCloud
 -GraphEndpoint <https://graph.svc.sovcloud.fr/>
 ```
 
-##### Germany
+**Germany**
 
 ```powershell
 Add-MgEnvironment  -Name DelosCloud
@@ -66,7 +63,7 @@ Add-MgEnvironment  -Name DelosCloud
 -GraphEndpoint <https://graph.svc.sovcloud.de/>
 ```
 
-##### GovSGCloud
+**GovSGCloud**
 
 ```powershell
 Add-MgEnvironment  -Name GovSGCloud
@@ -74,7 +71,7 @@ Add-MgEnvironment  -Name GovSGCloud
 -GraphEndpoint <https://graph.svc.sovcloud.sg/>
 ```
 
-##### Output
+**Output**
 
 ```output
 Name        AzureADEndpoint                    GraphEndpoint                           Type
