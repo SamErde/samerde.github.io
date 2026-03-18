@@ -16,7 +16,7 @@ comments: true
 
 ## Interesting Updates in Microsoft.Graph 2.36.0
 
-You can often learn interesting things by looking at release notes. While reading the "what's changed" list for the msgraph-sdk-powershell project (Microsoft Graph PowerShell module), three things stood out:
+You can often learn interesting things by looking at release notes. While reading the "what's changed" list for the **msgraph-sdk-powershell** project (Microsoft Graph PowerShell module), three things stood out:
 
 > **Re-establish Separate Auth Paths for WAM Enabled/Disabled by @ramsessanchez in [#3542](https://github.com/microsoftgraph/msgraph-sdk-powershell/pull/3542)**
 > Can we hope for continued improvements with WAM support in PowerShell?
