@@ -6,6 +6,8 @@ date:   2026-03-18 08:00:00 -0500
 tags: [PowerShell, Azure, Microsoft Graph]
 categories: [PowerShell, Azure, Microsoft Graph]
 author: Sam Erde
+cover-img: /assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg
+thumbnail-img: /assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg
 gh-repo: samerde/samerde.github.io
 comments: true
 ---
