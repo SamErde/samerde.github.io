@@ -62,7 +62,7 @@ const config = {
           postsPerPage: 5,
           showReadingTime: true,
           editUrl:
-            'https://github.com/SamErde/samerde.github.io/edit/master/',
+            'https://github.com/SamErde/samerde.github.io/edit/main/',
           feedOptions: {
             type: ['rss', 'atom'],
             title: 'Day 3 Bits',
