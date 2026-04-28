@@ -1,10 +1,8 @@
 ---
-layout: post
 title:  "Creating a Script to Create My Scripts"
 date:   2023-12-31 08:00:00 -0400
-author: Sam Erde
-categories: powershell
-tags: powershell automation scripting
+authors: [sam]
+tags: [powershell, automation, scripting]
 ---
 
 This week found a teammate and me looking through a list of scripts to be created for a PowerShell module. At first glance, the project looked like no less than 20 functions.

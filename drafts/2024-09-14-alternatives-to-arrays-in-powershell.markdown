@@ -1,15 +1,10 @@
 ---
-layout: post
 title:  "Alternatives to Arrays in PowerShell"
-subtitle: Flexibility and performance improvements are available if you avoid using the += operator with arrays.
+description: Flexibility and performance improvements are available if you avoid using the += operator with arrays.
 date:   2024-09-14 09:00:00 -0400
-author: Sam Erde
-categories: powershell
-tags: [powershell automation scripting]
-gh-repo: samerde/samerde.github.io
-cover-img: /assets/img/banners/_____.jpg
-thumbnail-img: /assets/img/thumbnails/_____.jpg
-share-img: "https://samerde.github.io/assets/img/social/_____.png"
+authors: [sam]
+tags: [powershell, automation, scripting]
+image: "https://day3bits.com/assets/img/social/_____.png"
 ---
 
 <#
