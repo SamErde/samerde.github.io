@@ -159,6 +159,12 @@ const config = {
       mermaid: {
         theme: {light: 'neutral', dark: 'forest'},
       },
+      algolia: {
+        appId: 'P1TQ2GZ57L',
+        apiKey: '73710804bf8e607df1b562bba5fdf27a',
+        indexName: 'Day3Bits',
+        contextualSearch: true,
+      },
     }),
 };
 
