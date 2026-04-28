@@ -6,8 +6,6 @@ date: '2025-02-17'
 authors: [sam]
 tags: ['PowerShell', 'Scripting']
 image: 'https://day3bits.com/assets/img/social/Using-Obsolete-Parameters-In-PowerShell.png'
-cover_image: '/assets/img/banners/jadon-kelly-zCnOv_jlbiw-unsplash-cropped.jpg'
-thumbnail_image: '/assets/img/thumbnails/jadon-kelly-zCnOv_jlbiw-unsplash.jpg'
 ---
 
 <!-- markdownlint-disable no-inline-html -->

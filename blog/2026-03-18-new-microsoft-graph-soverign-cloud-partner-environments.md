@@ -5,8 +5,6 @@ slug: '/2026-03-18-new-microsoft-graph-soverign-cloud-partner-environments/'
 date: '2026-03-18'
 authors: [sam]
 tags: ['PowerShell', 'Azure', 'Microsoft Graph']
-cover_image: '/assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg'
-thumbnail_image: '/assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg'
 ---
 
 <!-- markdownlint-disable no-inline-html -->
