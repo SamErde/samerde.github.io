@@ -6,8 +6,6 @@ date: '2024-09-05'
 authors: [sam]
 tags: ['PowerShell', 'Scripting', 'Azure', 'Microsoft Graph']
 image: 'https://day3bits.com/assets/img/social/Removing the Az and Microsoft.Graph PowerShell Modules to Save Time.png'
-cover_image: '/assets/img/banners/samu-lopez-T6u10VL2kjo-unsplash.jpg'
-thumbnail_image: '/assets/img/thumbnails/samu-lopez-T6u10VL2kjo-unsplash.jpg'
 ---
 
 The Microsoft Graph SDK v2.23.0 was released today, and with it, the updated Microsoft Graph PowerShell module. You can use `Update-Module` or `Update-PSResource` to update this module, or you can try out my new [PSPReworkout](https://day3bits.com/PSPreworkout) module's `Update-AllTheThings` function.

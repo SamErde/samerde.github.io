@@ -6,8 +6,6 @@ date: '2024-03-21'
 authors: [sam]
 tags: ['Microsoft 365', 'M365']
 image: 'https://day3bits.com/assets/img/social/M365-E5-Developer-SKU.png'
-cover_image: '/assets/img/banners/ken-suarez-4IxPVkFGJGI-unsplash.jpg'
-thumbnail_image: '/assets/img/thumbnails/ken-suarez-4IxPVkFGJGI-unsplash.jpg'
 ---
 
 Welcome back! Here's a quick hit that falls into the "make notes and share them" category.

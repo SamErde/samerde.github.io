@@ -83,6 +83,9 @@ const config = {
           trackingID: 'G-WSWT0E3F1K',
           anonymizeIP: true,
         },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       }),
     ],
   ],
@@ -128,7 +131,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'light',
+        style: 'dark',
         links: [
           {
             title: 'Connect',

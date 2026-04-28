@@ -6,8 +6,6 @@ date: '2024-12-30'
 authors: [sam]
 tags: ['User Group', 'Community']
 image: 'https://day3bits.com/assets/img/social/creating-an-it-systems-management-user-group-for-charlotte.png'
-cover_image: '/assets/img/banners/annie-spratt-QckxruozjRg-unsplash.jpg'
-thumbnail_image: '/assets/img/thumbnails/annie-spratt-QckxruozjRg-unsplash.jpg'
 ---
 
 As IT professionals, we thrive on learning new things, tackling challenges, and growing our skills. While this is work inherently satisfying, we can only find real meaning in our work when we understand why we do it, when we are able to contribute value to the community, and when we take care of ourselves. These ideas drive my passion to keep growing and to connect with others who feel the same. Plus, as you may have guessed, I love geeking out about PowerShell, Microsoft 365, Windows Server, and securing all the things!

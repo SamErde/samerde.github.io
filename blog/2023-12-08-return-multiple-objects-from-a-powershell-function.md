@@ -6,8 +6,6 @@ date: '2023-12-08'
 authors: [sam]
 tags: ['PowerShell', 'PKI']
 image: 'https://day3bits.com/assets/img/social/Return-Multiple-Objects-from-a-PowerShell-Function.png'
-cover_image: '/assets/img/banners/adrian-schwarz-XS7q-baZrmE-unsplash.jpg'
-thumbnail_image: '/assets/img/thumbnails/adrian-schwarz-XS7q-baZrmE-unsplash.jpg'
 ---
 
 One of the things that makes PowerShell so fun is the endless opportunities to learn new and better ways to do things. We all began learning it by trying out useful cmdlets and following tutorials to write basic functions. However, nothing sinks in as well as when we work on a project with specific goals that stretch our PowerShell knowledge.
