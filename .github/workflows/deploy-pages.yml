@@ -1,21 +1,17 @@
-name: Docusaurus CI
+name: Deploy GitHub Pages
 
 on:
-  pull_request:
-    branches:
-      - master
   push:
     branches:
       - master
-      - 'samerde/**'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: docusaurus-ci-${{ github.ref }}
-  cancel-in-progress: true
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -45,9 +41,22 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: docusaurus-build
           path: build
-          if-no-files-found: error
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

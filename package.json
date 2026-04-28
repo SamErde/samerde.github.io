@@ -1,0 +1,23 @@
+{
+  "name": "day3bits",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "docusaurus build && node scripts/copy-feed.js",
+    "clear": "docusaurus clear",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "start": "docusaurus start"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.0",
+    "@docusaurus/preset-classic": "^3.10.0",
+    "@docusaurus/theme-mermaid": "^3.10.0",
+    "@mermaid-js/layout-elk": "^0.1.9"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.5",
+    "uuid": "^14.0.0",
+    "webpack": "5.104.1"
+  }
+}

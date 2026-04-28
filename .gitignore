@@ -2,6 +2,9 @@
 _site
 .sass-cache
 .vagrant
+.docusaurus
+build
+node_modules
 
 # general
 .DS_Store
