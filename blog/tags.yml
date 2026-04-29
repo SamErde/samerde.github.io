@@ -48,7 +48,7 @@
   permalink: /windows
   description: Windows client and server administration.
 
-'Microsoft-Teams':
+'Microsoft Teams':
   label: Microsoft Teams
   permalink: /microsoft-teams
   description: Microsoft Teams administration and troubleshooting.
