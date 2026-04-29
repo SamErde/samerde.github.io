@@ -1,1 +1,6 @@
 # Algolia-Crawler-Verif: 0D12D35825177A2C
+
+User-agent: *
+Allow: /
+
+Sitemap: https://day3bits.com/sitemap.xml

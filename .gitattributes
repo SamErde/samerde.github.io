@@ -15,7 +15,7 @@
 .gitkeep text eol=lf
 
 # Github specific files
-LICENCE text eol=lf
+LICENSE.md text eol=lf
 
 # Docker specific files
 Dockerfile text eol=lf
