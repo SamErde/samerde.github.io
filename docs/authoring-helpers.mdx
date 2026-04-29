@@ -1,0 +1,51 @@
+---
+sidebar_position: 2
+title: Authoring helpers
+description: Reusable callout components for PowerShell and Microsoft 365 security content.
+---
+
+import {
+  AdminImpact,
+  PowerShellVersion,
+  Prerequisites,
+  SecurityNote,
+  TestedWith,
+} from '@site/src/components/ContentCallouts';
+
+# Authoring helpers
+
+Use these MDX components in guides or MDX-based posts when the extra structure helps readers scan technical content.
+
+<Prerequisites>
+
+- Required modules, roles, permissions, licenses, or tenant settings.
+- Setup steps that should be completed before running commands.
+
+</Prerequisites>
+
+<TestedWith>
+
+- PowerShell version.
+- Module versions.
+- Microsoft Graph profile or API version.
+- Relevant operating system or cloud environment.
+
+</TestedWith>
+
+<PowerShellVersion>
+
+Call out when a command requires Windows PowerShell, PowerShell 7, a preview version, or a specific module release.
+
+</PowerShellVersion>
+
+<SecurityNote>
+
+Use for security-sensitive choices, least-privilege guidance, data handling cautions, or tenant-wide impact warnings.
+
+</SecurityNote>
+
+<AdminImpact>
+
+Use when a step can affect users, production services, audit trails, authentication, authorization, or compliance posture.
+
+</AdminImpact>

@@ -45,13 +45,20 @@ const config = {
     locales: ['en'],
   },
   plugins: [
+    'docusaurus-plugin-image-zoom',
   ],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
+        docs: {
+          path: 'docs',
+          routeBasePath: 'guides',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/SamErde/samerde.github.io/edit/main/',
+        },
         blog: {
           path: 'blog',
           routeBasePath: '/',
@@ -124,6 +131,12 @@ const config = {
           },
           {to: '/tags/', label: 'Tags', position: 'left'},
           {
+            type: 'docSidebar',
+            sidebarId: 'guidesSidebar',
+            label: 'Guides',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/SamErde',
             label: 'GitHub',
             position: 'right',
@@ -157,10 +170,17 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['powershell', 'bash'],
+        additionalLanguages: ['powershell', 'bash', 'json', 'yaml', 'diff', 'kusto'],
       },
       mermaid: {
         theme: {light: 'neutral', dark: 'forest'},
+      },
+      zoom: {
+        selector: '.markdown img:not(.no-zoom)',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)',
+        },
       },
       algolia: {
         appId: 'P1TQ2GZ57L',

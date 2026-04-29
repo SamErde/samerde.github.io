@@ -1,0 +1,94 @@
+'PowerShell':
+  label: PowerShell
+  permalink: /powershell
+  description: PowerShell automation, scripting, modules, and shell tooling.
+
+'Scripting':
+  label: Scripting
+  permalink: /scripting
+  description: Script design, automation patterns, and maintainability practices.
+
+'Microsoft 365':
+  label: Microsoft 365
+  permalink: /microsoft-365
+  description: Microsoft 365 services, administration, and security.
+
+'M365':
+  label: M365
+  permalink: /m365
+  description: Short-form Microsoft 365 tag retained for existing posts.
+
+'Microsoft Graph':
+  label: Microsoft Graph
+  permalink: /microsoft-graph
+  description: Microsoft Graph API, SDKs, and automation.
+
+'Azure':
+  label: Azure
+  permalink: /azure
+  description: Azure services and cloud administration.
+
+'Active Directory':
+  label: Active Directory
+  permalink: /active-directory
+  description: Active Directory administration, identity, and automation.
+
+'.NET':
+  label: .NET
+  permalink: /dotnet
+  description: .NET APIs, tools, and PowerShell interoperability.
+
+'PKI':
+  label: PKI
+  permalink: /pki
+  description: Certificates, public key infrastructure, and trust.
+
+'Windows':
+  label: Windows
+  permalink: /windows
+  description: Windows client and server administration.
+
+'Microsoft-Teams':
+  label: Microsoft Teams
+  permalink: /microsoft-teams
+  description: Microsoft Teams administration and troubleshooting.
+
+'Issue':
+  label: Issue
+  permalink: /issue
+  description: Troubleshooting notes for specific bugs, updates, or regressions.
+
+'User Group':
+  label: User Group
+  permalink: /user-group
+  description: Community events and user group updates.
+
+'Community':
+  label: Community
+  permalink: /community
+  description: Community building, events, and collaboration.
+
+'Entra ID':
+  label: Entra ID
+  permalink: /entra-id
+  description: Microsoft Entra ID identity and access management.
+
+'Defender':
+  label: Defender
+  permalink: /defender
+  description: Microsoft Defender security operations and configuration.
+
+'Security':
+  label: Security
+  permalink: /security
+  description: Security operations, hardening, and defensive practices.
+
+'Automation':
+  label: Automation
+  permalink: /automation
+  description: Operational automation and repeatable workflows.
+
+'KQL':
+  label: KQL
+  permalink: /kql
+  description: Kusto Query Language examples and detection logic.
