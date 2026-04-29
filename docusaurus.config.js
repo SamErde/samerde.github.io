@@ -14,10 +14,7 @@ const config = {
     "Sharing ideas and things I'm learning about IT infrastructure operations, cybersecurity, automation, and the value of continuous improvement.",
   url: siteUrl,
   baseUrl: '/',
-  organizationName: 'SamErde',
-  projectName: 'samerde.github.io',
   trailingSlash: true,
-  staticDirectories: ['static'],
   favicon: 'assets/img/avatar-icon.png',
   customFields: {
     giscus: {
@@ -26,13 +23,14 @@ const config = {
       repositoryId: 'R_kgDOK3A-Qg',
       category: 'Announcements',
       categoryId: 'DIC_kwDOK3A-Qs4CvalR',
-      mapping: 'title',
+      mapping: 'pathname',
       reactionsEnabled: '1',
       emitMetadata: '0',
       theme: 'preferred_color_scheme',
     },
   },
   onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
   markdown: {
     format: 'detect',
     hooks: {
@@ -40,9 +38,14 @@ const config = {
     },
     mermaid: true,
   },
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+  future: {
+    faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      mdxCrossCompilerCache: true,
+    },
   },
   plugins: [
     'docusaurus-plugin-image-zoom',
@@ -53,20 +56,18 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: 'docs',
           routeBasePath: 'guides',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/SamErde/samerde.github.io/edit/main/',
         },
         blog: {
-          path: 'blog',
           routeBasePath: '/',
           blogTitle: 'Day 3 Bits',
           blogDescription: rssDescription,
-          blogSidebarCount: 5,
+          blogSidebarCount: 10,
           blogSidebarTitle: 'Recent posts',
-          postsPerPage: 5,
+          postsPerPage: 10,
           showReadingTime: true,
           editUrl:
             'https://github.com/SamErde/samerde.github.io/edit/main/',
@@ -75,15 +76,11 @@ const config = {
             title: 'Day 3 Bits',
             description: rssDescription,
             copyright: `Copyright © ${new Date().getFullYear()} Sam Erde`,
+            limit: false,
+            xslt: true,
           },
         },
-        pages: {
-          path: 'src/pages',
-          routeBasePath: '/',
-        },
         sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
           ignorePatterns: ['/tags/**'],
         },
         gtag: {
@@ -100,7 +97,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'assets/img/social/Return-Multiple-Objects-from-a-PowerShell-Function.png',
+      // TODO: Add a custom og:image that looks good when shared on social media
+      // image: 'assets/img/social/Return-Multiple-Objects-from-a-PowerShell-Function.png',
       navbar: {
         title: 'Day 3 Bits',
         items: [
@@ -149,7 +147,6 @@ const config = {
           {
             title: 'Connect',
             items: [
-              {label: 'Email', href: 'mailto:sam@day3bits.com'},
               {label: 'GitHub', href: 'https://github.com/SamErde'},
               {label: 'LinkedIn', href: 'https://www.linkedin.com/in/SamErde'},
               {label: 'Bluesky', href: 'https://bsky.app/profile/samerde.day3bits.com'},
