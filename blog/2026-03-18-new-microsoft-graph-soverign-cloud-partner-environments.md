@@ -4,7 +4,7 @@ description: 'Microsoft is building new national partner cloud environments and 
 slug: '/2026-03-18-new-microsoft-graph-soverign-cloud-partner-environments/'
 date: '2026-03-18'
 authors: [sam]
-tags: ['PowerShell', 'Azure', 'Microsoft Graph']
+tags: [powershell, azure, microsoft-graph]
 ---
 
 <!-- markdownlint-disable no-inline-html -->

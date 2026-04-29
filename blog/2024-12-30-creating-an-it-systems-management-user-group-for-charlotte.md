@@ -4,7 +4,7 @@ description: 'I am looking for colleagues who share this vision for a new tech c
 slug: '/2024-12-30-creating-an-it-systems-management-user-group-for-charlotte/'
 date: '2024-12-30'
 authors: [sam]
-tags: ['User Group', 'Community']
+tags: [user-group, community]
 image: 'https://day3bits.com/assets/img/social/creating-an-it-systems-management-user-group-for-charlotte.png'
 ---
 

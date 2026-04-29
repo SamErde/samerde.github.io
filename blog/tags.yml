@@ -1,94 +1,94 @@
-'PowerShell':
+powershell:
   label: PowerShell
   permalink: /powershell
   description: PowerShell automation, scripting, modules, and shell tooling.
 
-'Scripting':
+scripting:
   label: Scripting
   permalink: /scripting
   description: Script design, automation patterns, and maintainability practices.
 
-'Microsoft 365':
+microsoft-365:
   label: Microsoft 365
   permalink: /microsoft-365
   description: Microsoft 365 services, administration, and security.
 
-'M365':
+m365:
   label: M365
   permalink: /m365
   description: Short-form Microsoft 365 tag retained for existing posts.
 
-'Microsoft Graph':
+microsoft-graph:
   label: Microsoft Graph
   permalink: /microsoft-graph
   description: Microsoft Graph API, SDKs, and automation.
 
-'Azure':
+azure:
   label: Azure
   permalink: /azure
   description: Azure services and cloud administration.
 
-'Active Directory':
+active-directory:
   label: Active Directory
   permalink: /active-directory
   description: Active Directory administration, identity, and automation.
 
-'.NET':
+dotnet:
   label: .NET
   permalink: /dotnet
   description: .NET APIs, tools, and PowerShell interoperability.
 
-'PKI':
+pki:
   label: PKI
   permalink: /pki
   description: Certificates, public key infrastructure, and trust.
 
-'Windows':
+windows:
   label: Windows
   permalink: /windows
   description: Windows client and server administration.
 
-'Microsoft Teams':
+microsoft-teams:
   label: Microsoft Teams
   permalink: /microsoft-teams
   description: Microsoft Teams administration and troubleshooting.
 
-'Issue':
+issue:
   label: Issue
   permalink: /issue
   description: Troubleshooting notes for specific bugs, updates, or regressions.
 
-'User Group':
+user-group:
   label: User Group
   permalink: /user-group
   description: Community events and user group updates.
 
-'Community':
+community:
   label: Community
   permalink: /community
   description: Community building, events, and collaboration.
 
-'Entra ID':
+entra-id:
   label: Entra ID
   permalink: /entra-id
   description: Microsoft Entra ID identity and access management.
 
-'Defender':
+defender:
   label: Defender
   permalink: /defender
   description: Microsoft Defender security operations and configuration.
 
-'Security':
+security:
   label: Security
   permalink: /security
   description: Security operations, hardening, and defensive practices.
 
-'Automation':
+automation:
   label: Automation
   permalink: /automation
   description: Operational automation and repeatable workflows.
 
-'KQL':
+kql:
   label: KQL
   permalink: /kql
   description: Kusto Query Language examples and detection logic.

@@ -4,7 +4,7 @@ description: 'How to deprecate a parameter in your PowerShell functions without 
 slug: '/2025-02-17-using-obsolete-parameters-in-powershell/'
 date: '2025-02-17'
 authors: [sam]
-tags: ['PowerShell', 'Scripting']
+tags: [powershell, scripting]
 image: 'https://day3bits.com/assets/img/social/Using-Obsolete-Parameters-In-PowerShell.png'
 ---
 

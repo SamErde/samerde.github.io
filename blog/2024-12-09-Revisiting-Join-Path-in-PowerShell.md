@@ -4,7 +4,7 @@ description: 'Tips for using Join-Path in backwards-compatible and cross-platfor
 slug: '/2024-12-09-Revisiting-Join-Path-in-PowerShell/'
 date: '2024-12-09'
 authors: [sam]
-tags: ['PowerShell', 'Scripting', '.NET']
+tags: [powershell, scripting, dotnet]
 image: 'https://day3bits.com/assets/img/social/Revisiting Join-Path in PowerShell.png'
 ---
 

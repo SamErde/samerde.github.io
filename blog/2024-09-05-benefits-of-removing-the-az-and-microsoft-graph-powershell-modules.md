@@ -4,7 +4,7 @@ description: 'Save time and simplify your workspace by removing all unused Power
 slug: '/2024-09-05-benefits-of-removing-the-az-and-microsoft-graph-powershell-modules/'
 date: '2024-09-05'
 authors: [sam]
-tags: ['PowerShell', 'Scripting', 'Azure', 'Microsoft Graph']
+tags: [powershell, scripting, azure, microsoft-graph]
 image: 'https://day3bits.com/assets/img/social/Removing the Az and Microsoft.Graph PowerShell Modules to Save Time.png'
 ---
 

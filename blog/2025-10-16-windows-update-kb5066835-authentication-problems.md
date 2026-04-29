@@ -4,7 +4,7 @@ description: 'Security update breaks localhost listeners that are used to connec
 slug: '/2025-10-16-windows-update-kb5066835-authentication-problems/'
 date: '2025-10-16'
 authors: [sam]
-tags: ['Issue', 'PowerShell', 'Windows', 'Microsoft Teams']
+tags: [issue, powershell, windows, microsoft-teams]
 ---
 
 This Wednesday, October 15th, I encountered an unpleasant surprise when I began connecting to Microsoft 365 services to test the latest prerelease version of Maester: I could not connect to Microsoft Teams using PowerShell!

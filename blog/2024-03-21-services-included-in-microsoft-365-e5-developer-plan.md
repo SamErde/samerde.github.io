@@ -4,7 +4,7 @@ description: 'What is currently included when you sign up for a Microsoft 365 E5
 slug: '/2024-03-21-services-included-in-microsoft-365-e5-developer-plan/'
 date: '2024-03-21'
 authors: [sam]
-tags: ['Microsoft 365', 'M365']
+tags: [microsoft-365, m365]
 image: 'https://day3bits.com/assets/img/social/M365-E5-Developer-SKU.png'
 ---
 

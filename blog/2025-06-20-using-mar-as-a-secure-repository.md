@@ -4,7 +4,7 @@ description: 'A trusted and secure source for PowerShell modules, packages, and 
 slug: '/2025-06-20-using-mar-as-a-secure-repository/'
 date: '2025-06-20'
 authors: [sam]
-tags: ['PowerShell', 'Scripting']
+tags: [powershell, scripting]
 ---
 
 <!-- markdownlint-disable no-inline-html -->
