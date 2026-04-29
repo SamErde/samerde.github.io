@@ -3,7 +3,7 @@ title: 'Revisiting Join-Path in PowerShell'
 description: 'Tips for using Join-Path in backwards-compatible and cross-platform PowerShell scripts.'
 slug: '/2024-12-09-Revisiting-Join-Path-in-PowerShell/'
 date: '2024-12-09'
-authors: [sam]
+authors: [samerde]
 tags: [powershell, scripting, dotnet]
 image: 'https://day3bits.com/assets/img/social/Revisiting Join-Path in PowerShell.png'
 ---
@@ -82,6 +82,3 @@ You might notice an emerging theme when we look into one more option that works 
 That looks like a nice, clean option that runs almost anywhere and is easy to read!
 
 Photo by <a href="https://unsplash.com/@madebyjens?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jens Lelie</a> on <a href="https://unsplash.com/photos/two-roads-between-trees-u0vgcIOQG08?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-
-

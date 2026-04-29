@@ -3,7 +3,7 @@ title: 'Using Obsolete Parameters in PowerShell'
 description: 'How to deprecate a parameter in your PowerShell functions without breaking existing scripts.'
 slug: '/2025-02-17-using-obsolete-parameters-in-powershell/'
 date: '2025-02-17'
-authors: [sam]
+authors: [samerde]
 tags: [powershell, scripting]
 image: 'https://day3bits.com/assets/img/social/Using-Obsolete-Parameters-In-PowerShell.png'
 ---
@@ -57,6 +57,3 @@ You can download this sample function ([Test-Obsolete.ps1](https://github.com/Sa
 This is just one of those little things you can do to improve the experience for people who use your code. Take advantage of it to make your PowerShell code 1% better every day!
 
 Have a great day! ☀️🙏
-
-
-

@@ -3,7 +3,7 @@ title: 'Installing PowerShell with the .NET Tool'
 description: 'The .NET Tool (dotnet) can be used to easily install the LTS or STS version of PowerShell without local admin rights, but it does have some limitations.'
 slug: '/2025-07-09-installing-powershell-with-the-dotnet-tool/'
 date: '2025-07-09'
-authors: [sam]
+authors: [samerde]
 tags: [powershell, dotnet]
 ---
 
@@ -136,6 +136,3 @@ PowerShell as a .NET tool is easy to setup, but it does have some limitations.
 ## Closing Thoughts
 
 Despite these limitations, this can be a useful tool for development and testing, or when you need a lightweight installation option that doesn't require local admin rights.
-
-
-

@@ -3,7 +3,7 @@ title: 'Return Multiple Objects from a PowerShell Function'
 description: 'Hash tables are back with another slick use case!'
 slug: '/2023-12-08-return-multiple-objects-from-a-powershell-function/'
 date: '2023-12-08'
-authors: [sam]
+authors: [samerde]
 tags: [powershell, pki]
 image: 'https://day3bits.com/assets/img/social/Return-Multiple-Objects-from-a-PowerShell-Function.png'
 ---
@@ -205,6 +205,3 @@ Peace.
 Sam
 
 Photo by <a href="https://unsplash.com/@aeschwarz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Adrian Schwarz</a> on <a href="https://unsplash.com/photos/time-lapse-photography-of-city-night-lights-XS7q-baZrmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Unsplash</a>
-
-
-

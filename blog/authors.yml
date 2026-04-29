@@ -1,9 +1,11 @@
-sam:
+samerde:
   name: Sam Erde
-  title: Enterprise IT, automation, identity, and security
-  url: https://github.com/SamErde
+  description: A Microsoft MVP sharing what he learns about PowerShell, Microsoft 365, security, and GitHub.
+  url: https://linktr.ee/SamErde
   image_url: https://github.com/SamErde.png
+  page: true
   socials:
     github: SamErde
     linkedin: SamErde
     x: SamErde
+    bluesky: SamErde.day3bits.com

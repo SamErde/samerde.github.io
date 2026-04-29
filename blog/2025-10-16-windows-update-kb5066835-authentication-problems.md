@@ -3,7 +3,7 @@ title: 'Issues with Windows Update KB5066835 Cause Problems with Authentication 
 description: 'Security update breaks localhost listeners that are used to connect to Microsoft 365 services with PowerShell and affect other 3rd party applications such as Cisco Duo.'
 slug: '/2025-10-16-windows-update-kb5066835-authentication-problems/'
 date: '2025-10-16'
-authors: [sam]
+authors: [samerde]
 tags: [issue, powershell, windows, microsoft-teams]
 ---
 
@@ -109,6 +109,3 @@ I'm sure there are many more details to spell out and more affected applications
 Thank you!
 
 Sam
-
-
-

@@ -3,7 +3,7 @@ title: 'Using the Microsoft Artifact Registry (MAR) with PowerShell'
 description: 'A trusted and secure source for PowerShell modules, packages, and other application components.'
 slug: '/2025-06-20-using-mar-as-a-secure-repository/'
 date: '2025-06-20'
-authors: [sam]
+authors: [samerde]
 tags: [powershell, scripting]
 ---
 
@@ -77,6 +77,3 @@ That's it for now! For more information, check the official documentation on [Mi
 Thanks to Sean Wheeler for the tip and the great documentation, as always!
 
 Have a great day! ☀️🙏
-
-
-

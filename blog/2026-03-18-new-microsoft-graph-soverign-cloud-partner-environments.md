@@ -3,7 +3,7 @@ title: 'Microsoft Graph Updates for New Sovereign Cloud Partner Environments'
 description: 'Microsoft is building new national partner cloud environments and has updated the Graph PowerShell module to support them.'
 slug: '/2026-03-18-new-microsoft-graph-soverign-cloud-partner-environments/'
 date: '2026-03-18'
-authors: [sam]
+authors: [samerde]
 tags: [powershell, azure, microsoft-graph]
 ---
 
@@ -90,6 +90,3 @@ What I don't see in the PR is any work on the `Singapore` environment that Copil
 Keep learning and discovering! Have a great day, friends!
 
 Sam
-
-
-

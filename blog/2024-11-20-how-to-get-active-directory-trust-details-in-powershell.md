@@ -3,7 +3,7 @@ title: 'How to Get Active Directory Trust Details in PowerShell'
 description: 'In which .NET inspires an answer to a question I had for years.'
 slug: '/2024-11-20-how-to-get-active-directory-trust-details-in-powershell/'
 date: '2024-11-20'
-authors: [sam]
+authors: [samerde]
 tags: [active-directory, powershell, dotnet]
 ---
 
@@ -73,6 +73,3 @@ If one-liners are your thing, we can do that as well: `[System.DirectoryServices
 By using the `System.DirectoryServices.ActiveDirectory.Forest` type from .NET, we can directly interact with Active Directory objects and retrieve trust details without relying on the ActiveDirectory PowerShell module.
 
 What do you think? Have you already moved your Active Directory scripts away from depending on the ActiveDirectory module? Let me know!
-
-
-

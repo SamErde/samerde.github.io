@@ -3,7 +3,7 @@ title: 'The Benefits of Removing the Az and Microsoft.Graph PowerShell Modules'
 description: 'Save time and simplify your workspace by removing all unused PowerShell modules.'
 slug: '/2024-09-05-benefits-of-removing-the-az-and-microsoft-graph-powershell-modules/'
 date: '2024-09-05'
-authors: [sam]
+authors: [samerde]
 tags: [powershell, scripting, azure, microsoft-graph]
 image: 'https://day3bits.com/assets/img/social/Removing the Az and Microsoft.Graph PowerShell Modules to Save Time.png'
 ---
@@ -81,6 +81,3 @@ Check your results with `Get-InstalledModule`. (What other modules do you have i
 - **Simplified Management:** Fewer modules mean less complexity in managing updates and dependencies, making it easier to keep your environment up to date and stable.
 
 Try it out and let me know if you notice the difference!
-
-
-

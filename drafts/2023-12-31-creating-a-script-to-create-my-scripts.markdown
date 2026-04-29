@@ -1,7 +1,7 @@
 ---
 title:  "Creating a Script to Create My Scripts"
 date:   2023-12-31 08:00:00 -0400
-authors: [sam]
+authors: [samerde]
 tags: [powershell, automation, scripting]
 ---
 
@@ -33,12 +33,12 @@ And so it began. Let's get into the PowerShell goodness!
 
 I began this project with [PSPublishModule](https://github.com/EvotecIT/PSPublishModule#readme) from @PrzemysławKłys. It is a very helpful module for anyone looking to jump start the PowerShell modules creation and publishing process. Here is the module's basic folder structure:
 
- > **Build**  
- > | _ Build-Module.ps1  
- > | _ FunctionTemplate.ps1  
- > | _ Build-FunctionFiles.ps1  
- > **Private**  
- > | - Function1.ps1  
- > | - Function2.ps1  
- > | - Function3.ps1  
+ > **Build**
+ > | _ Build-Module.ps1
+ > | _ FunctionTemplate.ps1
+ > | _ Build-FunctionFiles.ps1
+ > **Private**
+ > | - Function1.ps1
+ > | - Function2.ps1
+ > | - Function3.ps1
  > | ...

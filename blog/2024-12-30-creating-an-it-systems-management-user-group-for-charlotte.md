@@ -3,7 +3,7 @@ title: 'Creating an IT Systems Management User Group for Charlotte'
 description: 'I am looking for colleagues who share this vision for a new tech community in CLT that focuses on cybersecurity, Microsoft 365, on-premises and cloud infrastructure, PowerShell, and personal growth!'
 slug: '/2024-12-30-creating-an-it-systems-management-user-group-for-charlotte/'
 date: '2024-12-30'
-authors: [sam]
+authors: [samerde]
 tags: [user-group, community]
 image: 'https://day3bits.com/assets/img/social/creating-an-it-systems-management-user-group-for-charlotte.png'
 ---
@@ -66,6 +66,3 @@ Sam
 ---
 
 Photo by <a href="https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Annie Spratt</a> on <a href="https://unsplash.com/photos/group-of-people-using-laptop-computer-QckxruozjRg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-
-
