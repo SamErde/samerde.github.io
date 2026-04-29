@@ -5,7 +5,7 @@ slug: '/2024-09-05-benefits-of-removing-the-az-and-microsoft-graph-powershell-mo
 date: '2024-09-05'
 authors: [samerde]
 tags: [powershell, scripting, azure, microsoft-graph]
-image: 'https://day3bits.com/assets/img/social/Removing the Az and Microsoft.Graph PowerShell Modules to Save Time.png'
+image: 'https://day3bits.com/assets/img/social/removing-the-az-and-microsoft-graph-powershell-modules.png'
 ---
 
 The Microsoft Graph SDK v2.23.0 was released today, and with it, the updated Microsoft Graph PowerShell module. You can use `Update-Module` or `Update-PSResource` to update this module, or you can try out my new [PSPReworkout](https://day3bits.com/PSPreworkout) module's `Update-AllTheThings` function.
@@ -14,13 +14,14 @@ The Microsoft Graph SDK v2.23.0 was released today, and with it, the updated Mic
 
 :::note
 > `Update-AllTheThings` was built to update all installed PowerShell modules and scripts, PowerShell help, WinGet packages, and Chocolatey packages in one shot. (It also has the beginnings of very basic support for Linux and macOS packages.) Please try it out and share your feedback to help it improve!
+>
 > ```powershell
 > Install-Module -Name PSPreworkout
 > Import-Module -Name PSPreworkout
 > Update-AllTheThings
 > ```
-:::
 
+:::
 
 Regardless of how you update, you may find that it takes a terribly long time to update these modules. Minutes, even!!! 😱 Many people have probably followed the same steps that I did to get here, and many of us have wasted hours while waiting for the `Update-Module` and `Update-Help` commands to finish.
 
@@ -42,7 +43,6 @@ My advice to you now is to review the modules installed on your system and unins
 :::tip
 > Using `Get-InstalledModule` instead of `Get-Module -ShowAvailable` will help filter out the modules that come pre-installed with your OS. Don't waste more time by trying to manually filter through that list.
 :::
-
 
 If you need to remove modules that were installed for the AllUsers scope, then you will need to begin this process with an elevated PowerShell session.
 

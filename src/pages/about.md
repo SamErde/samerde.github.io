@@ -1,9 +1,9 @@
 ---
 title: About me
-description: The man behind the gist
+description: About Sam Erde — Microsoft MVP writing about PowerShell, Microsoft 365, and IT operations.
 ---
 
-👋🏼 Hi! My name is Sam Erde. Thanks for joining me here and on Twitter. I'm just this guy that has been blessed with opportunities to work with some amazing people on some really cool technology.
+👋🏼 Hi! My name is Sam Erde. Thanks for joining! I'm just this guy that has been blessed with opportunities to work with some amazing people on some really cool technology.
 
 I like Visio diagrams and lists, so here is a list of some things I enjoy working with:
 

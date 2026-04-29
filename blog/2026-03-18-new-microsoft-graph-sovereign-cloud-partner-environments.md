@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Graph Updates for New Sovereign Cloud Partner Environments'
 description: 'Microsoft is building new national partner cloud environments and has updated the Graph PowerShell module to support them.'
-slug: '/2026-03-18-new-microsoft-graph-soverign-cloud-partner-environments/'
+slug: '/2026-03-18-new-microsoft-graph-sovereign-cloud-partner-environments/'
 date: '2026-03-18'
 authors: [samerde]
 tags: [powershell, azure, microsoft-graph]

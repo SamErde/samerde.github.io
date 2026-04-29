@@ -5,7 +5,7 @@ slug: '/2024-12-09-Revisiting-Join-Path-in-PowerShell/'
 date: '2024-12-09'
 authors: [samerde]
 tags: [powershell, scripting, dotnet]
-image: 'https://day3bits.com/assets/img/social/Revisiting Join-Path in PowerShell.png'
+image: 'https://day3bits.com/assets/img/social/revisiting-join-path-in-powershell.png'
 ---
 
 Many people have already written about the benefits of using PowerShell's `Join-Path` cmdlet. Instead of repeating the details, let's review some of the less common tricks, and then look at the differences between Windows PowerShell 5.1 and newer versions of PowerShell.
