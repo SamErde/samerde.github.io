@@ -87,9 +87,6 @@ const config = {
           trackingID: 'G-WSWT0E3F1K',
           anonymizeIP: true,
         },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
       }),
     ],
   ],
@@ -102,7 +99,7 @@ const config = {
       navbar: {
         title: 'Day 3 Bits',
         items: [
-          {to: '/aboutme/', label: 'About Me', position: 'left'},
+          { to: '/about/', label: 'About Me', position: 'left' },
           {
             href: 'https://linktr.ee/SamErde',
             label: 'Linktree',
@@ -127,7 +124,7 @@ const config = {
               },
             ],
           },
-          {to: '/tags/', label: 'Tags', position: 'left'},
+          { to: '/tags/', label: 'Tags', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'guidesSidebar',
@@ -147,18 +144,18 @@ const config = {
           {
             title: 'Connect',
             items: [
-              {label: 'GitHub', href: 'https://github.com/SamErde'},
-              {label: 'LinkedIn', href: 'https://www.linkedin.com/in/SamErde'},
-              {label: 'Bluesky', href: 'https://bsky.app/profile/samerde.day3bits.com'},
-              {label: 'RSS', href: 'https://day3bits.com/feed.xml'},
+              { label: 'GitHub', href: 'https://github.com/SamErde' },
+              { label: 'LinkedIn', href: 'https://www.linkedin.com/in/SamErde' },
+              { label: 'Bluesky', href: 'https://bsky.app/profile/samerde.day3bits.com' },
+              { label: 'RSS', href: 'https://day3bits.com/feed.xml' },
             ],
           },
           {
             title: 'PowerShell Modules',
             items: [
-              {label: 'PSPreworkout', href: 'https://day3bits.com/PSPreworkout'},
-              {label: 'TheCleaners', href: 'https://day3bits.com/TheCleaners'},
-              {label: 'DLL Pickle', href: 'https://day3bits.com/DLLPickle'},
+              { label: 'PSPreworkout', href: 'https://day3bits.com/PSPreworkout' },
+              { label: 'TheCleaners', href: 'https://day3bits.com/TheCleaners' },
+              { label: 'DLL Pickle', href: 'https://day3bits.com/DLLPickle' },
             ],
           },
         ],
@@ -170,7 +167,7 @@ const config = {
         additionalLanguages: ['powershell', 'bash', 'json', 'yaml', 'diff', 'kusto'],
       },
       mermaid: {
-        theme: {light: 'neutral', dark: 'forest'},
+        theme: { light: 'neutral', dark: 'forest' },
       },
       zoom: {
         selector: '.markdown img:not(.no-zoom)',

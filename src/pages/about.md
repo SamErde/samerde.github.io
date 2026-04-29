@@ -3,9 +3,7 @@ title: About me
 description: The man behind the gist
 ---
 
-# About me
-
-👋🏼 Hi! My name is Sam Erde. Thanks for joining me here and on Twitter. I'm just this guy that has been blessed with opportunities to work with some amazing people on some really cool technology. I work at [Sentinel Technologies, Inc](https://www.sentinel.com/) on a team that is focused on Microsoft identity, security, management, and collaboration solutions.
+👋🏼 Hi! My name is Sam Erde. Thanks for joining me here and on Twitter. I'm just this guy that has been blessed with opportunities to work with some amazing people on some really cool technology.
 
 I like Visio diagrams and lists, so here is a list of some things I enjoy working with:
 
