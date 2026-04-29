@@ -55,6 +55,6 @@ Third-party assets are not covered by either license above unless explicitly sta
 
 This includes images sourced from Unsplash, which remain subject to the Unsplash License and any applicable creator rights. Credit is provided in any post that uses Unsplash assets.
 
-Unsplash License: https://unsplash.com/license
+Unsplash License: <https://unsplash.com/license>
 
 If a specific file or page carries its own license notice, that notice controls for that item.
