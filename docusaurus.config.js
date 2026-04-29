@@ -15,7 +15,7 @@ const config = {
   url: siteUrl,
   baseUrl: '/',
   trailingSlash: true,
-  favicon: 'assets/img/avatar-icon.png',
+  favicon: 'static/assets/img/profile-placeholder.jpg',
   customFields: {
     giscus: {
       hostname: 'https://giscus.app',
