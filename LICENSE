@@ -1,21 +1,31 @@
-MIT License
+# Repository Licensing
 
-Copyright (c) 2023 Dean Attali
+This repository uses multiple licenses by content type.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 1) Source code and automation
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Unless otherwise noted, source code and automation files are licensed under the MIT License.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Scope includes:
+
+- JavaScript, JSON, and configuration files used to build and run the site
+- GitHub workflow files
+- Build and helper scripts
+
+See LICENSE-CODE for the full MIT license text.
+
+## 2) Written content
+
+Unless otherwise noted, original written content is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Scope includes:
+
+- Blog posts in blog/
+- Documentation pages in docs/
+- Markdown or MDX pages in src/pages/
+
+See LICENSE-CONTENT for details.
+
+## 3) Third-party assets and exceptions
+
+Third-party assets are not covered by LICENSE-CODE or LICENSE-CONTENT unless explicitly stated.
