@@ -55,12 +55,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        //docs: {
-        //  routeBasePath: 'guides',
-        //  sidebarPath: require.resolve('./sidebars.js'),
-        //  editUrl:
-        //    'https://github.com/SamErde/samerde.github.io/edit/main/',
-        //},
+        docs: false,
         blog: {
           routeBasePath: '/',
           blogTitle: 'Day 3 Bits',
@@ -124,12 +119,6 @@ const config = {
             ],
           },
           { to: '/tags/', label: 'Tags', position: 'left' },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'guidesSidebar',
-          //   label: 'Guides',
-          //   position: 'left',
-          // },
           {
             href: 'https://github.com/SamErde',
             label: 'GitHub',
