@@ -13,7 +13,7 @@ How often do you think about the impact you have on your community--and let's no
 
 <!-- truncate -->
 
-**Every interaction--every statement, post, or reply that you make--will either build others up or pull them down.** It will either strengthen your relationships or weaken them. More importantly, it will either encourage those people or discourage them.
+**Every interaction--including every comment or reply that you make--will either build others up or pull them down.** It will either strengthen your relationships or weaken them. More importantly, it will either encourage those people or discourage them.
 
 It's time to be intentional. Which will you choose?
 
