@@ -13,11 +13,11 @@ How often do you think about the impact you have on your community--and let's no
 
 <!-- truncate -->
 
-**Every interaction--every statement, post, or reply that you make--will either build others up or pull them down.** It will either strengthen your relationships or weaken them. More importantly, it will either strengthen those people or weaken them.
+**Every interaction--every statement, post, or reply that you make--will either build others up or pull them down.** It will either strengthen your relationships or weaken them. More importantly, it will either encourage those people or discourage them.
 
 It's time to be intentional. Which will you choose?
 
-> Do not confuse this choice with "walking on eggshells" to avoid offending people, and do not fall into the trap of people-pleasing. If you are confident or curious about a topic, combine that with meekness and humility. Honest, thoughtful engagement is often the most generous thing you can offer--and it creates a profound opportunity for yourself and others to learn and grow.
+> Do not confuse this choice with "walking on eggshells" to avoid offending people, and do not fall into the trap of people-pleasing. If you are confident or curious about a topic, combine that with meekness and humility. Honest, thoughtful engagement is often the most generous thing you can offer. It creates a profound opportunity for yourself and others to learn and grow together.
 
 **Everything that you write or say will either create value or create noise in an already distracted world.**
 
