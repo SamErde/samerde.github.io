@@ -5,3 +5,24 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* ─── Blog list: give the grid a bit more breathing room ──────────────────── */
+.blog-list-page main > nav,
+.blog-list-page main > .margin-bottom--xl {
+  margin-top: 1.5rem;
+}
+
+/* ─── Blog sidebar: tighten up when alongside the grid ────────────────────── */
+[class*='blogSidebarContainer'] {
+  padding-left: 1.5rem;
+}
+
+/* ─── Card dark-mode border softening ─────────────────────────────────────── */
+[data-theme='dark'] .card {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+/* ─── Tag list page: add spacing above the tag cloud ──────────────────────── */
+.tags-list-page .container {
+  padding-top: 2rem;
+}

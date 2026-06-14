@@ -1,0 +1,137 @@
+/* ─── Card shell ─────────────────────────────────────────────────────────── */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-card-border-radius, 8px);
+  overflow: hidden;
+  background: var(--ifm-background-surface-color);
+  height: 100%;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: var(--ifm-global-shadow-md);
+  transform: translateY(-2px);
+}
+
+/* ─── Colored accent bar at top of card ──────────────────────────────────── */
+.accent {
+  height: 5px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* One entry per tag from tags.yml */
+.accentPowershell { background: #0167b1; }
+.accentScripting  { background: #7b4fff; }
+.accentM365       { background: #0078d4; }
+.accentGraph      { background: #00bcf2; }
+.accentAzure      { background: #0098ff; }
+.accentAD         { background: #5c2d91; }
+.accentDotnet     { background: #512bd4; }
+.accentPki        { background: #505a5f; }
+.accentWindows    { background: #0067b1; }
+.accentTeams      { background: #6264a7; }
+.accentIssue      { background: #d13438; }
+.accentCommunity  { background: #107c10; }
+.accentEntra      { background: #0f6cbd; }
+.accentDefender   { background: #da3b01; }
+.accentDefault    { background: var(--ifm-color-primary); }
+
+/* ─── Card body ──────────────────────────────────────────────────────────── */
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  flex: 1;
+  gap: 0;
+}
+
+/* ─── Title ──────────────────────────────────────────────────────────────── */
+.title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.6rem;
+}
+
+.title a {
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+}
+
+/* ─── Description ────────────────────────────────────────────────────────── */
+.description {
+  font-size: 0.875rem;
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.55;
+  margin: 0 0 auto;
+  /* Clamp to 3 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ─── Footer: date + tags ────────────────────────────────────────────────── */
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.meta {
+  font-size: 0.75rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+/* ─── Tag pills ──────────────────────────────────────────────────────────── */
+.tagPill {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.7;
+  text-decoration: none;
+  color: #fff !important;
+  background: var(--ifm-color-primary);
+  transition: opacity 0.15s;
+}
+
+.tagPill:hover {
+  opacity: 0.82;
+  text-decoration: none;
+}
+
+/* Per-tag pill colors (same accent palette, slightly adjusted for readability) */
+.tagPill.accentPowershell { background: #0167b1; }
+.tagPill.accentScripting  { background: #7b4fff; }
+.tagPill.accentM365       { background: #0078d4; }
+.tagPill.accentGraph      { background: #0085a1; }
+.tagPill.accentAzure      { background: #0098ff; }
+.tagPill.accentAD         { background: #5c2d91; }
+.tagPill.accentDotnet     { background: #512bd4; }
+.tagPill.accentPki        { background: #505a5f; }
+.tagPill.accentWindows    { background: #0067b1; }
+.tagPill.accentTeams      { background: #6264a7; }
+.tagPill.accentIssue      { background: #d13438; }
+.tagPill.accentCommunity  { background: #107c10; }
+.tagPill.accentEntra      { background: #0f6cbd; }
+.tagPill.accentDefender   { background: #da3b01; }
+.tagPill.accentDefault    { background: var(--ifm-color-primary); }
