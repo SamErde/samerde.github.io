@@ -3,6 +3,10 @@
 build
 node_modules
 
+# OG image build artifacts
+.og-font-cache
+static/assets/img/og/posts
+
 # general
 .DS_Store
 Thumbs.db
