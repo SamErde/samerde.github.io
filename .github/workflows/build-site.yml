@@ -50,6 +50,9 @@ jobs:
       - name: Audit dependencies
         run: npm audit --audit-level=high
 
+      - name: Test TheCleaners URL canonicalization
+        run: npm run test:url-case
+
       - name: Build site
         run: npm run build
 
