@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Test TheCleaners URL canonicalization
+        run: npm run test:url-case
+
       - name: Build site
         run: npm run build
 
