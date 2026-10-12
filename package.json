@@ -24,6 +24,13 @@
     "satori": "^0.32.0"
   },
   "overrides": {
+    "@docusaurus/core": {
+      "tinypool": "2.1.2"
+    },
+    "mermaid": {
+      "katex": "0.18.2"
+    },
+    "postcss-selector-parser": "7.1.6",
     "serialize-javascript": "^7.0.5",
     "uuid": "^14.0.0",
     "webpack": "5.104.1"
