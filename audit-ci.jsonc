@@ -1,0 +1,15 @@
+{
+  "high": true,
+  "package-manager": "npm",
+  "report-type": "full",
+  "show-found": true,
+  "allowlist": [
+    {
+      "GHSA-vfj7-8cjw-p6xm": {
+        "active": true,
+        "expiry": "2026-11-11T00:00:00Z",
+        "notes": "Owner: SamErde. Temporary acceptance: no patched braces release; inspected use is build/watch tooling with repository-controlled patterns, with no demonstrated visitor-controlled pattern path. Reassess upstream availability and exposure before expiry. Context: https://github.com/SamErde/samerde.github.io/pull/29."
+      }
+    }
+  ]
+}
