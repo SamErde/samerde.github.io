@@ -37,8 +37,8 @@ jobs:
           node-version: 24.x
           cache: npm
 
-      - name: Set up npm 12 to enforce allowScripts
-        run: npm install --global npm@12.2.0
+      - name: Set up verified npm 12 to enforce allowScripts
+        run: bash scripts/install-ci-npm.sh
 
       - name: Install dependencies
         run: npm ci
