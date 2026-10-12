@@ -5,6 +5,7 @@
 *.md text eol=lf
 *.css text eol=lf
 *.js text eol=lf
+*.sh text eol=lf
 
 # YAML files
 *.yml text eol=lf
